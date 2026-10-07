@@ -7,32 +7,32 @@
     "mode": "FICTIONAL DEMONSTRATION",
     "demo_label": "FICTIONAL DEMONSTRATION DATA",
     "as_of_date": "2026-10-06",
-    "validated_at": "2026-10-07T02:50:04.177418+00:00",
-    "snapshot_id": "a314f18aa1e7f4d221979ba0c29bed1c1b816e66b88870de5e5b80038aff3a4d",
-    "input_digest": "1651cbe5a157597b3319269aaf0306a0a45304574bd7c6898ea41a06441321c1",
+    "validated_at": "2026-10-07T04:30:38.249690+00:00",
+    "snapshot_id": "a85d2404b642eef021cb8a5cd33f1db64ebd5b60ed64710e2f2d2d1996f7d44b",
+    "input_digest": "62054bd6ad80771498d8a6ea2532a767fab76567d64aedd44e66cd928a26ceb1",
     "approval": {
       "status": "ACTION NOT APPROVED",
       "reasons": [
         "Fictional or unresearched records cannot authorize a live action. A reviewed live engagement and named sign-off are required."
       ],
       "review_date": "2026-10-06",
-      "checked_at": "2026-10-07T02:50:03.988263+00:00",
+      "checked_at": "2026-10-07T04:30:37.488076+00:00",
       "scope": "All recommendations must satisfy unchanged 1.0.1 live-delivery gates. This is a snapshot, not signer authentication."
     },
     "score_reconciliation": "Populated derived values reconcile; unavailable optional values remain null."
   },
   "files": {
-    "action-plan.json": "ce18e67130d2ce962f364475c745a50f4d6d8628edde9c497d48879c420d8e75",
-    "assumptions.json": "9aaa337fd81a0505212dbb8870dfc4ee5542854106d6f702f5cbf0770ad83152",
-    "competitors.json": "39678ccbfb305515cf9b3afeb23ebe0eb4fc7077f809fa29883b4a96e7d5f7f4",
-    "contradictions.json": "33c0befae8c2d21dab8ca735cfbecd2ec278b4aa29502f252c20f8ce5825428a",
-    "customers.json": "a4cd966e9499660690700823b314e194e26f60c037a56cea32124526ebf08a49",
-    "evidence.json": "3d846bb5682d8c4e20e1089664919f4ff48e752661218a29ae611e1917356ada",
-    "executive.json": "046c47567b015f760f6ac428994dec5bdfefc5689faa734a659ee005f1d5fbf4",
-    "market.json": "eee36b728af5daff2e17fcd68e75ea2f185d2a975ec7487c67e82be0e2267107",
-    "opportunities.json": "111cf0d90b0c85770049723d1ddcc71bd77e296f0df9b22f1b713dc0e903ee9d",
-    "research-gaps.json": "0672b5f78d6cb8b915c8a7bacc77394ca32567b03bcf75fa1edd45a90eaca4e4",
-    "risks.json": "5970f1248bc7f9e929264ecc0e05385e157703b99b3ff212c7cd575e5cc2eb6f",
-    "sources.json": "964cbab5c3289eac419777a841caf3f7cc20a0c8feca7704c045fc9503a16e19"
+    "action-plan.json": "c0bae0e4fdd02d4988002369ac38b99c1f07181d84fe143241598c69a225eff8",
+    "assumptions.json": "a1f22d7c28dd37fc9a85102dcbca0312d1f8cb0f42345889cb5cc29699fa3adc",
+    "competitors.json": "c78d17f8e1f8368a3b9f3352c49a64a2e874ecee4de7e09faa50d67f6befc21e",
+    "contradictions.json": "a8a9d3be5020156ddc49a7c27ee242b6b3bff504ebed4570a5b1e6283ec7df96",
+    "customers.json": "62171b4d8728de42f63b37ed64566e366b82df8499fb76d9d31c5d9e8d62d820",
+    "evidence.json": "e48a0704809014be3e91da503fc292b8692fe2024f43d461cd6c78005970b183",
+    "executive.json": "b3fab5441490f2e4e301041e083c3a9b1654159e5132906c7668485d996e3573",
+    "market.json": "70174312eb09f35268c3474d1b6fdcc749b410a9e78e5bfe640db1907d624594",
+    "opportunities.json": "2303445259c04d05e5835fff2062c0f99f8c148e2f6337f2ae585e1fbf066dd0",
+    "research-gaps.json": "68366262deffcf9dfbc1f21c1505d8198f44769ced63eddb13ad8ac4f1d77163",
+    "risks.json": "e0ad9ff2fd15aa5e8eafaa26ae6d4b1ce0f069d0a25421f23a4391bfe4e24fa4",
+    "sources.json": "403d7eb724a9800a119ee3759fdd4dd4fb4d50b92d43b2cdae57c9161951d370"
   }
 }
