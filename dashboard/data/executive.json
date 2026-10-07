@@ -7,16 +7,16 @@
     "mode": "FICTIONAL DEMONSTRATION",
     "demo_label": "FICTIONAL DEMONSTRATION DATA",
     "as_of_date": "2026-10-06",
-    "validated_at": "2026-10-07T02:50:04.177418+00:00",
-    "snapshot_id": "a314f18aa1e7f4d221979ba0c29bed1c1b816e66b88870de5e5b80038aff3a4d",
-    "input_digest": "1651cbe5a157597b3319269aaf0306a0a45304574bd7c6898ea41a06441321c1",
+    "validated_at": "2026-10-07T04:30:38.249690+00:00",
+    "snapshot_id": "a85d2404b642eef021cb8a5cd33f1db64ebd5b60ed64710e2f2d2d1996f7d44b",
+    "input_digest": "62054bd6ad80771498d8a6ea2532a767fab76567d64aedd44e66cd928a26ceb1",
     "approval": {
       "status": "ACTION NOT APPROVED",
       "reasons": [
         "Fictional or unresearched records cannot authorize a live action. A reviewed live engagement and named sign-off are required."
       ],
       "review_date": "2026-10-06",
-      "checked_at": "2026-10-07T02:50:03.988263+00:00",
+      "checked_at": "2026-10-07T04:30:37.488076+00:00",
       "scope": "All recommendations must satisfy unchanged 1.0.1 live-delivery gates. This is a snapshot, not signer authentication."
     },
     "score_reconciliation": "Populated derived values reconcile; unavailable optional values remain null."
@@ -66,7 +66,7 @@
             "Fictional or unresearched records cannot authorize a live action. A reviewed live engagement and named sign-off are required."
           ],
           "review_date": "2026-10-06",
-          "checked_at": "2026-10-07T02:50:03.988263+00:00",
+          "checked_at": "2026-10-07T04:30:37.488076+00:00",
           "scope": "All recommendations must satisfy unchanged 1.0.1 live-delivery gates. This is a snapshot, not signer authentication."
         },
         "action_class": "REVERSIBLE VALIDATION / OBSERVATION"

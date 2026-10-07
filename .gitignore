@@ -23,6 +23,9 @@ Thumbs.db
 # Put real research outside the public checkout; these patterns are defense in depth.
 private/
 private_client_data/
+client_data/
+raw_client_data/
+source_archives_private/
 local_research_archives/
 08_evidence/archives/
 engagement_*/

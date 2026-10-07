@@ -9,3 +9,6 @@
 *.cff text eol=lf
 *.png binary
 *.jpg binary
+# These files are bound by SHA-256; never normalize their newline bytes.
+12_examples/synthetic_sources/*.md -text
+dashboard/data/*.json -text
