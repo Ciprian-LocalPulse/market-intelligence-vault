@@ -1,0 +1,3 @@
+import {missing} from './utils.js';
+export function selectRows(rows,query='',criteria={}){const q=query.trim().toLowerCase();return rows.filter(r=>(!q||Object.values(r).some(v=>!missing(v)&&String(v).toLowerCase().includes(q)))&&Object.entries(criteria).every(([key,value])=>!value||String(r[key])===String(value)));}
+export function sortRows(rows,key,direction='asc'){const sign=direction==='desc'?-1:1;return [...rows].sort((a,b)=>{const x=a[key],y=b[key];if(missing(x)&&missing(y))return 0;if(missing(x))return 1;if(missing(y))return -1;return sign*(typeof x==='number'&&typeof y==='number'?x-y:String(x).localeCompare(String(y)));});}

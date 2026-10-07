@@ -1,0 +1,2 @@
+sample_status,gap_id,category,question,segment_id,unmet_need,underserved_reach,alternative_failure,solution_feasibility,evidence_confidence,evidence_ids,claim_ids,confidence_score,gap_score,falsification,owner,as_of_date
+FICTIONAL SAMPLE,GAP-001,integration gap,Can assisted setup reduce reconciliation burden at a paid price?,SEG-001,4,3,3,4,2.95,EV-001|EV-002|EV-005,CLM-001|CLM-002|CLM-005,59.00,68.85,Equivalent alternative solves the task at lower total cost,Product lead,2026-10-06

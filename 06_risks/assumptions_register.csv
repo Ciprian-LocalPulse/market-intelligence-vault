@@ -1,0 +1,3 @@
+sample_status,assumption_id,assumption,label,basis,evidence_ids,confidence_score,failure_impact,validation_method,owner,due_date,status,decision_ids,critical
+FICTIONAL SAMPLE,ASM-001,Three workflows will convert to paid pilots,HYPOTHESIS,No paid observation exists,EV-001|EV-004,59.00,Stop expansion and revisit economics,Request paid commitment after observed task test,Commercial lead,2026-11-05,OPEN,DEC-001,true
+FICTIONAL SAMPLE,ASM-SYN-001,All sample business-factor ratings are invented ordinal assumptions,HYPOTHESIS,Demonstration-only inputs; never live observations,EV-001|EV-004,59.00,Scores cannot support real capital allocation,Replace each factor with scoped live evidence or an explicitly owned assumption,Commercial lead,2026-11-05,OPEN,DEC-001,false

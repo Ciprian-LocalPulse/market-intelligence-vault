@@ -1,0 +1,37 @@
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+credentials/
+secrets/
+# Python and developer noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+coverage/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+# Reviewed canonical demonstration archives remain tracked under 12_examples/synthetic_sources.
+# Put real research outside the public checkout; these patterns are defense in depth.
+private/
+private_client_data/
+local_research_archives/
+08_evidence/archives/
+engagement_*/
+delivery_*/
+.score_transaction/
+dashboard/data*.building/
+dashboard/data*.previous/
+work/
+tmp/
+*.tmp
+*.log
+# Production dashboard/data, tests and assets are intentionally not ignored.

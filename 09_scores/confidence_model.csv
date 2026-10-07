@@ -1,0 +1,6 @@
+factor,weight,input_min,input_max,direction,definition,anchor_0,anchor_mid,anchor_max
+reliability_score,25,0,25,positive,Primary-source verification and claim-specific authority,No source,Documented method with material limits,Independently auditable scoped measurement
+freshness_score,20,0,20,positive,Age relative to configured topic windows,Stale or unknown,Recent within configured topic window,Current within configured topic window
+directness_score,20,0,20,positive,Measurement matches the claim without proxy substitution,Speculation,Relevant proxy or partly matched observation,Direct observation matches the scoped claim
+corroboration_score,20,0,20,positive,Independent origin groups; syndicated copies count once,One originating support group,Two independent supporting origins,Four or more independent supporting origins
+relevance_score,15,0,15,positive,"Scope, geography, population and period match",Outside scope,Partial population/period match,Full geography/population/period match

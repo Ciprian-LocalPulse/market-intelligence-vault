@@ -1,0 +1,16 @@
+flowchart LR
+  ES[Evidence System] --> MI[Market Intelligence]
+  ES --> CI[Competitor Intelligence]
+  ES --> CU[Customer Intelligence]
+  MI --> OI[Opportunity Intelligence]
+  CI --> OI
+  CU --> OI
+  MI --> RI[Risk Intelligence]
+  CI --> RI
+  CU --> RI
+  ES --> SE[Scoring Engine]
+  OI --> SE
+  RI --> SE
+  SE --> DL[Decision Layer]
+  DL --> EX[Validated Read-only Export]
+  EX --> DB[Dashboard]

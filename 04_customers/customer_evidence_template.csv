@@ -1,0 +1,2 @@
+sample_status,customer_evidence_id,segment_id,method,sample_size,sampling_frame,insight,bias_limit,consent_status,label,evidence_ids,confidence_score,as_of_date
+FICTIONAL SAMPLE,CUS-CUS-001,SEG-001,Synthetic interviews,12,Invented workflow cohort,Eight describe recurring burden,Convenience sampling; no prevalence claim,Synthetic; no personal data,HYPOTHESIS,EV-001,59.00,2026-10-06

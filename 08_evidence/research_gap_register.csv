@@ -1,0 +1,2 @@
+sample_status,gap_id,question,importance,current_evidence,confidence,recommended_research,priority,owner,status
+FICTIONAL SAMPLE,RGP-001,Will workflow buyers pay for assisted setup?,High: determines paid pilot gate,EV-001|EV-004,59.00,Observed task test followed by priced commitment,1,Commercial lead,OPEN

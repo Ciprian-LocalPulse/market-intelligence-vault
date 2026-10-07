@@ -1,0 +1,7 @@
+sample_status,map_id,claim_id,evidence_id,relationship,materiality,interpretation
+FICTIONAL SAMPLE,MAP-001,CLM-001,EV-001,supports,critical,Supports only the scoped synthetic claim
+FICTIONAL SAMPLE,MAP-002,CLM-002,EV-002,supports,critical,Supports only the scoped synthetic claim
+FICTIONAL SAMPLE,MAP-003,CLM-003,EV-003,supports,critical,Supports only the scoped synthetic claim
+FICTIONAL SAMPLE,MAP-004,CLM-004,EV-004,supports,critical,Supports only the scoped synthetic claim
+FICTIONAL SAMPLE,MAP-005,CLM-005,EV-005,supports,critical,Supports only the scoped synthetic claim
+FICTIONAL SAMPLE,MAP-006,CLM-001,EV-006,contradicts,critical,Burden varies by workflow; sample cannot establish prevalence

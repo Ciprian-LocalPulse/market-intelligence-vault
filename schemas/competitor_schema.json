@@ -1,0 +1,240 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Competitor",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sample_status",
+    "competitor_id",
+    "company",
+    "website",
+    "geography",
+    "segment",
+    "product",
+    "pricing",
+    "pricing_currency",
+    "pricing_period",
+    "positioning",
+    "target_customer",
+    "funding",
+    "partnerships",
+    "strengths",
+    "weaknesses",
+    "differentiators",
+    "recent_changes",
+    "market_signals",
+    "brand_strength",
+    "pricing_pressure",
+    "product_maturity",
+    "distribution",
+    "switching_costs",
+    "capital_strength",
+    "innovation_velocity",
+    "customer_loyalty",
+    "evidence_ids",
+    "claim_ids",
+    "owner",
+    "as_of_date"
+  ],
+  "properties": {
+    "sample_status": {
+      "type": "string",
+      "description": "sample status; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "competitor_id": {
+      "type": "string",
+      "description": "competitor id; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "pattern": "^[A-Z][A-Z0-9-]*$"
+    },
+    "company": {
+      "type": "string",
+      "description": "company; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "website": {
+      "type": "string",
+      "description": "website; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "geography": {
+      "type": "string",
+      "description": "geography; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "segment": {
+      "type": "string",
+      "description": "segment; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "product": {
+      "type": "string",
+      "description": "product; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "pricing": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100000000,
+      "description": "pricing"
+    },
+    "pricing_currency": {
+      "type": "string",
+      "description": "pricing currency; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "pricing_period": {
+      "type": "string",
+      "description": "pricing period; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "positioning": {
+      "type": "string",
+      "description": "positioning; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "target_customer": {
+      "type": "string",
+      "description": "target customer; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "funding": {
+      "type": "string",
+      "description": "funding; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "partnerships": {
+      "type": "string",
+      "description": "partnerships; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "strengths": {
+      "type": "string",
+      "description": "strengths; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "weaknesses": {
+      "type": "string",
+      "description": "weaknesses; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "differentiators": {
+      "type": "string",
+      "description": "differentiators; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "recent_changes": {
+      "type": "string",
+      "description": "recent changes; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "market_signals": {
+      "type": "string",
+      "description": "market signals; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "brand_strength": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "brand strength"
+    },
+    "pricing_pressure": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "pricing pressure"
+    },
+    "product_maturity": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "product maturity"
+    },
+    "distribution": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "distribution"
+    },
+    "switching_costs": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "switching costs"
+    },
+    "capital_strength": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "capital strength"
+    },
+    "innovation_velocity": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "innovation velocity"
+    },
+    "customer_loyalty": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "customer loyalty"
+    },
+    "evidence_ids": {
+      "type": "string",
+      "description": "evidence ids; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "claim_ids": {
+      "type": "string",
+      "description": "claim ids; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "confidence_score": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "confidence score"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "competitor_pressure_score": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "competitor pressure score"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "owner": {
+      "type": "string",
+      "description": "owner; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "as_of_date": {
+      "type": "string",
+      "description": "as of date; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "format": "date"
+    }
+  }
+}

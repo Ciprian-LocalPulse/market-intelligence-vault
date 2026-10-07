@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sample_status",
+    "source_id",
+    "source_title",
+    "source_url",
+    "publisher",
+    "access_date",
+    "source_type",
+    "topic",
+    "tier",
+    "reliability_score",
+    "origin_group",
+    "locator",
+    "archive_reference",
+    "usage_rights",
+    "analyst_notes",
+    "archive_sha256"
+  ],
+  "properties": {
+    "sample_status": {
+      "type": "string",
+      "description": "sample status; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "source_id": {
+      "type": "string",
+      "description": "source id; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "pattern": "^[A-Z][A-Z0-9-]*$"
+    },
+    "source_title": {
+      "type": "string",
+      "description": "source title; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "source_url": {
+      "type": "string",
+      "description": "source url; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "publisher": {
+      "type": "string",
+      "description": "publisher; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "publication_date": {
+      "anyOf": [
+        {
+          "type": "string",
+          "description": "publication date; see DATA_DICTIONARY.md.",
+          "format": "date"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "access_date": {
+      "type": "string",
+      "description": "access date; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "format": "date"
+    },
+    "source_type": {
+      "type": "string",
+      "description": "source type; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "topic": {
+      "type": "string",
+      "description": "topic; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "tier": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "tier"
+    },
+    "reliability_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 25,
+      "description": "reliability score"
+    },
+    "origin_group": {
+      "type": "string",
+      "description": "origin group; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "locator": {
+      "type": "string",
+      "description": "locator; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "archive_reference": {
+      "type": "string",
+      "description": "archive reference; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "usage_rights": {
+      "type": "string",
+      "description": "usage rights; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "analyst_notes": {
+      "type": "string",
+      "description": "analyst notes; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "archive_sha256": {
+      "type": "string",
+      "description": "archive sha256; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  }
+}

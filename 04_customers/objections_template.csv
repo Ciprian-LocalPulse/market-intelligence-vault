@@ -1,0 +1,2 @@
+sample_status,objection_id,segment_id,objection,decision_stage,response_test,rejection_threshold,label,evidence_ids,confidence_score,as_of_date
+FICTIONAL SAMPLE,CUS-OBJ-001,SEG-001,Setup cost outweighs saved effort,Evaluation,Measure setup plus recurring effort,Payback exceeds six months,HYPOTHESIS,EV-001,59.00,2026-10-06

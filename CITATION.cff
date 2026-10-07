@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you reference this project, please cite this software. Citation does not grant reuse rights."
+type: software
+title: "Market Intelligence Vault"
+authors:
+  - family-names: "Pleșca"
+    given-names: "Ciprian Ștefan"
+version: "1.1.0"
+date-released: "2026-10-07"
+year: 2026
+repository-code: "https://github.com/Ciprian-LocalPulse/market-intelligence-vault"
+url: "https://github.com/Ciprian-LocalPulse/market-intelligence-vault"
+abstract: "A local evidence and decision intelligence framework with traceable claims, uncertainty registers, heuristic scoring and a read-only executive dashboard."
+license: "LicenseRef-All-Rights-Reserved"

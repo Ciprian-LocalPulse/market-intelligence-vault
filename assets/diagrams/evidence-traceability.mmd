@@ -1,0 +1,12 @@
+flowchart LR
+  S[Source] --> E[Evidence Item]
+  E --> C[Claim]
+  C --> CF[Confidence]
+  CF --> F[Finding]
+  F --> R[Recommendation]
+  R --> D[Decision]
+  CE[Counterevidence] --> C
+  AS[Assumption] --> F
+  C --> RG[Research Gap]
+  RG --> E
+  AS --> D

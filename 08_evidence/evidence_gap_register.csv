@@ -1,0 +1,2 @@
+sample_status,gap_id,claim_id,missing_evidence,decision_impact,evidence_ids,confidence_score,research_method,owner,due_date,status,decision_ids,critical
+FICTIONAL SAMPLE,EGP-001,CLM-003,Verified eligible account count and realized contract value,Capital allocation cannot rely on synthetic TAM,EV-003,66.00,Audit population definition and contract observations,Research lead,2026-11-05,OPEN,DEC-001,true

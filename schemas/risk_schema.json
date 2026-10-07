@@ -1,0 +1,242 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Risk",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sample_status",
+    "risk_id",
+    "title",
+    "category",
+    "label",
+    "horizon_days",
+    "likelihood",
+    "impact",
+    "detectability",
+    "velocity",
+    "mitigation_readiness",
+    "evidence_ids",
+    "claim_ids",
+    "override",
+    "mitigation",
+    "trigger",
+    "owner",
+    "residual_risk",
+    "status",
+    "as_of_date"
+  ],
+  "properties": {
+    "sample_status": {
+      "type": "string",
+      "description": "sample status; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "risk_id": {
+      "type": "string",
+      "description": "risk id; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "pattern": "^[A-Z][A-Z0-9-]*$"
+    },
+    "title": {
+      "type": "string",
+      "description": "title; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "description": "category; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "label": {
+      "type": "string",
+      "description": "label; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ]
+    },
+    "horizon_days": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 3650,
+      "description": "horizon days"
+    },
+    "likelihood": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "likelihood"
+    },
+    "impact": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "impact"
+    },
+    "detectability": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "detectability"
+    },
+    "velocity": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "velocity"
+    },
+    "mitigation_readiness": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "mitigation readiness"
+    },
+    "evidence_ids": {
+      "type": "string",
+      "description": "evidence ids; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "claim_ids": {
+      "type": "string",
+      "description": "claim ids; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "confidence_score": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "confidence score"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "risk_score": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "risk score"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "classification": {
+      "anyOf": [
+        {
+          "type": "string",
+          "description": "classification; see DATA_DICTIONARY.md.",
+          "enum": [
+            "Critical",
+            "High",
+            "Moderate",
+            "Low"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "override": {
+      "type": "string",
+      "description": "override; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "true",
+        "false"
+      ]
+    },
+    "override_reason": {
+      "anyOf": [
+        {
+          "type": "string",
+          "description": "override reason; see DATA_DICTIONARY.md."
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "mitigation": {
+      "type": "string",
+      "description": "mitigation; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "trigger": {
+      "type": "string",
+      "description": "trigger; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "owner": {
+      "type": "string",
+      "description": "owner; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "residual_risk": {
+      "type": "string",
+      "description": "residual risk; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "description": "status; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "OPEN",
+        "MITIGATING",
+        "ACCEPTED",
+        "CLOSED"
+      ]
+    },
+    "as_of_date": {
+      "type": "string",
+      "description": "as of date; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "format": "date"
+    },
+    "structural_zero": {
+      "anyOf": [
+        {
+          "type": "string",
+          "description": "structural zero; see DATA_DICTIONARY.md."
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "review_required": {
+      "anyOf": [
+        {
+          "type": "string",
+          "description": "review required; see DATA_DICTIONARY.md."
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    }
+  }
+}

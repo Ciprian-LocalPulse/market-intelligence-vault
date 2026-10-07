@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "contract_version": "1.1.0",
+    "repository_version": "1.1.0",
+    "model_version": "1.0.1",
+    "engagement_name": "Northstar Analytics",
+    "mode": "FICTIONAL DEMONSTRATION",
+    "demo_label": "FICTIONAL DEMONSTRATION DATA",
+    "as_of_date": "2026-10-06",
+    "validated_at": "2026-10-07T02:50:04.177418+00:00",
+    "snapshot_id": "a314f18aa1e7f4d221979ba0c29bed1c1b816e66b88870de5e5b80038aff3a4d",
+    "input_digest": "1651cbe5a157597b3319269aaf0306a0a45304574bd7c6898ea41a06441321c1",
+    "approval": {
+      "status": "ACTION NOT APPROVED",
+      "reasons": [
+        "Fictional or unresearched records cannot authorize a live action. A reviewed live engagement and named sign-off are required."
+      ],
+      "review_date": "2026-10-06",
+      "checked_at": "2026-10-07T02:50:03.988263+00:00",
+      "scope": "All recommendations must satisfy unchanged 1.0.1 live-delivery gates. This is a snapshot, not signer authentication."
+    },
+    "score_reconciliation": "Populated derived values reconcile; unavailable optional values remain null."
+  },
+  "data": {
+    "records": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "segment_id": "SEG-001",
+        "name": "Recurring reconciliation workflows",
+        "icp_inclusion": "Recurring multi-source workflow with measurable manual effort",
+        "icp_exclusion": "One-off analysis with no repeat workflow",
+        "jobs_to_be_done": "Resolve mismatched records before reporting",
+        "pains": "Repeated reconciliation and uncertain provenance",
+        "desired_outcomes": "Less rework and recoverable evidence trail",
+        "buying_triggers": "New recurring reporting obligation",
+        "switching_triggers": "Repeated failed reconciliation",
+        "decision_criteria": "Accuracy; audit trail; setup time",
+        "price_sensitivity": "Untested",
+        "objections": "Migration effort and uncertain payback",
+        "evidence_ids": [
+          "EV-001",
+          "EV-004"
+        ],
+        "claim_ids": [
+          "CLM-001",
+          "CLM-004"
+        ],
+        "confidence_score": 59.0,
+        "label": "HYPOTHESIS",
+        "population_limit": "Twelve synthetic conversations; no population inference",
+        "owner": "Customer research lead",
+        "as_of_date": "2026-10-06",
+        "confidence_category": "Low"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "segment_id": "SEG-002",
+        "name": "Multi-system reporting workflows",
+        "icp_inclusion": "Recurring multi-source workflow with measurable manual effort",
+        "icp_exclusion": "One-off analysis with no repeat workflow",
+        "jobs_to_be_done": "Combine inconsistent inputs without repeated manual mapping",
+        "pains": "Repeated reconciliation and uncertain provenance",
+        "desired_outcomes": "Less rework and recoverable evidence trail",
+        "buying_triggers": "New recurring reporting obligation",
+        "switching_triggers": "Repeated failed reconciliation",
+        "decision_criteria": "Connector reliability; export control; maintenance effort",
+        "price_sensitivity": "Untested",
+        "objections": "Migration effort and uncertain payback",
+        "evidence_ids": [
+          "EV-001",
+          "EV-004"
+        ],
+        "claim_ids": [
+          "CLM-001",
+          "CLM-004"
+        ],
+        "confidence_score": 59.0,
+        "label": "HYPOTHESIS",
+        "population_limit": "Twelve synthetic conversations; no population inference",
+        "owner": "Customer research lead",
+        "as_of_date": "2026-10-06",
+        "confidence_category": "Low"
+      }
+    ],
+    "pains": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "pain_id": "CUS-PAI-001",
+        "segment_id": "SEG-001",
+        "pain": "Recurring mismatches",
+        "frequency": "Weekly synthetic workflow",
+        "severity_0_5": 4.0,
+        "cost_basis": "Unmeasured; collect baseline",
+        "label": "HYPOTHESIS",
+        "evidence_ids": [
+          "EV-001"
+        ],
+        "confidence_score": 59.0,
+        "as_of_date": "2026-10-06",
+        "confidence_category": "Low"
+      }
+    ],
+    "triggers": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "trigger_id": "CUS-TRI-001",
+        "segment_id": "SEG-001",
+        "trigger": "New reporting obligation",
+        "trigger_type": "buying",
+        "observable_event": "Repeated weekly reconciliation",
+        "validation_question": "Does the event unlock budget?",
+        "label": "HYPOTHESIS",
+        "evidence_ids": [
+          "EV-001"
+        ],
+        "confidence_score": 59.0,
+        "as_of_date": "2026-10-06",
+        "confidence_category": "Low"
+      }
+    ],
+    "objections": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "objection_id": "CUS-OBJ-001",
+        "segment_id": "SEG-001",
+        "objection": "Setup cost outweighs saved effort",
+        "decision_stage": "Evaluation",
+        "response_test": "Measure setup plus recurring effort",
+        "rejection_threshold": "Payback exceeds six months",
+        "label": "HYPOTHESIS",
+        "evidence_ids": [
+          "EV-001"
+        ],
+        "confidence_score": 59.0,
+        "as_of_date": "2026-10-06",
+        "confidence_category": "Low"
+      }
+    ],
+    "insights": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "customer_evidence_id": "CUS-CUS-001",
+        "segment_id": "SEG-001",
+        "method": "Synthetic interviews",
+        "sample_size": "12",
+        "sampling_frame": "Invented workflow cohort",
+        "insight": "Eight describe recurring burden",
+        "bias_limit": "Convenience sampling; no prevalence claim",
+        "consent_status": "Synthetic; no personal data",
+        "label": "HYPOTHESIS",
+        "evidence_ids": [
+          "EV-001"
+        ],
+        "confidence_score": 59.0,
+        "as_of_date": "2026-10-06",
+        "confidence_category": "Low"
+      }
+    ]
+  }
+}

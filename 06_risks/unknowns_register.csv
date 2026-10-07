@@ -1,0 +1,2 @@
+sample_status,unknown_id,question,decision_affected,evidence_ids,confidence_score,resolution_method,owner,due_date,status,decision_ids,critical
+FICTIONAL SAMPLE,UNK-001,What is realized willingness to pay?,DEC-001,EV-004,59.00,Paid pilot commitment,Commercial lead,2026-11-05,OPEN,DEC-001,true

@@ -1,0 +1,276 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sample_status",
+    "evidence_id",
+    "claim_id",
+    "source_id",
+    "source_title",
+    "source_url",
+    "publisher",
+    "access_date",
+    "topic",
+    "evidence_type",
+    "direct_or_indirect",
+    "finding",
+    "supporting_quote_or_summary",
+    "locator",
+    "reliability_score",
+    "directness_score",
+    "corroboration_score",
+    "relevance_score",
+    "analyst_notes",
+    "contradiction_flag",
+    "verification_status",
+    "origin_group"
+  ],
+  "properties": {
+    "sample_status": {
+      "type": "string",
+      "description": "sample status; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "evidence_id": {
+      "type": "string",
+      "description": "evidence id; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "pattern": "^[A-Z][A-Z0-9-]*$"
+    },
+    "claim_id": {
+      "type": "string",
+      "description": "claim id; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "pattern": "^[A-Z][A-Z0-9-]*$"
+    },
+    "source_id": {
+      "type": "string",
+      "description": "source id; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "pattern": "^[A-Z][A-Z0-9-]*$"
+    },
+    "source_title": {
+      "type": "string",
+      "description": "source title; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "source_url": {
+      "type": "string",
+      "description": "source url; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "publisher": {
+      "type": "string",
+      "description": "publisher; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "publication_date": {
+      "anyOf": [
+        {
+          "type": "string",
+          "description": "publication date; see DATA_DICTIONARY.md.",
+          "format": "date"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "access_date": {
+      "type": "string",
+      "description": "access date; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "format": "date"
+    },
+    "topic": {
+      "type": "string",
+      "description": "topic; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "evidence_type": {
+      "type": "string",
+      "description": "evidence type; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ]
+    },
+    "direct_or_indirect": {
+      "type": "string",
+      "description": "direct or indirect; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "direct",
+        "indirect"
+      ]
+    },
+    "finding": {
+      "type": "string",
+      "description": "finding; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "supporting_quote_or_summary": {
+      "type": "string",
+      "description": "supporting quote or summary; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "locator": {
+      "type": "string",
+      "description": "locator; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "reliability_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 25,
+      "description": "reliability score"
+    },
+    "freshness_score": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 20,
+          "description": "freshness score"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "directness_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 20,
+      "description": "directness score"
+    },
+    "corroboration_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 20,
+      "description": "corroboration score"
+    },
+    "relevance_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 15,
+      "description": "relevance score"
+    },
+    "confidence_score": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "confidence score"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "confidence_level": {
+      "anyOf": [
+        {
+          "type": "string",
+          "description": "confidence level; see DATA_DICTIONARY.md.",
+          "enum": [
+            "Very High",
+            "High",
+            "Moderate",
+            "Low",
+            "Very Low"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "evidence_grade": {
+      "anyOf": [
+        {
+          "type": "string",
+          "description": "evidence grade; see DATA_DICTIONARY.md.",
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "freshness_status": {
+      "anyOf": [
+        {
+          "type": "string",
+          "description": "freshness status; see DATA_DICTIONARY.md.",
+          "enum": [
+            "Current",
+            "Recent",
+            "Aging",
+            "Stale",
+            "Unknown"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "analyst_notes": {
+      "type": "string",
+      "description": "analyst notes; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "contradiction_flag": {
+      "type": "string",
+      "description": "contradiction flag; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "true",
+        "false"
+      ]
+    },
+    "verification_status": {
+      "type": "string",
+      "description": "verification status; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "verified",
+        "unverified",
+        "speculation",
+        "unsupported"
+      ]
+    },
+    "origin_group": {
+      "type": "string",
+      "description": "origin group; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    }
+  }
+}

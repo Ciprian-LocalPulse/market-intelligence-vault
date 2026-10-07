@@ -1,0 +1,4 @@
+sample_status,competitor_id,assessment_id,criterion,rating_0_5,basis,evidence_ids,confidence_score,as_of_date
+FICTIONAL SAMPLE,CMP-001,MTX-001,Task-specific onboarding,2,Synthetic comparative task audit,EV-002,72.00,2026-10-06
+FICTIONAL SAMPLE,CMP-002,MTX-002,Task-specific onboarding,4,Synthetic comparative task audit,EV-002,72.00,2026-10-06
+FICTIONAL SAMPLE,CMP-003,MTX-003,Task-specific onboarding,3,Synthetic comparative task audit,EV-002,72.00,2026-10-06

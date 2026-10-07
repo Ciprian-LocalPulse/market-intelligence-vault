@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "contract_version": "1.1.0",
+    "repository_version": "1.1.0",
+    "model_version": "1.0.1",
+    "engagement_name": "Northstar Analytics",
+    "mode": "FICTIONAL DEMONSTRATION",
+    "demo_label": "FICTIONAL DEMONSTRATION DATA",
+    "as_of_date": "2026-10-06",
+    "validated_at": "2026-10-07T02:50:04.177418+00:00",
+    "snapshot_id": "a314f18aa1e7f4d221979ba0c29bed1c1b816e66b88870de5e5b80038aff3a4d",
+    "input_digest": "1651cbe5a157597b3319269aaf0306a0a45304574bd7c6898ea41a06441321c1",
+    "approval": {
+      "status": "ACTION NOT APPROVED",
+      "reasons": [
+        "Fictional or unresearched records cannot authorize a live action. A reviewed live engagement and named sign-off are required."
+      ],
+      "review_date": "2026-10-06",
+      "checked_at": "2026-10-07T02:50:03.988263+00:00",
+      "scope": "All recommendations must satisfy unchanged 1.0.1 live-delivery gates. This is a snapshot, not signer authentication."
+    },
+    "score_reconciliation": "Populated derived values reconcile; unavailable optional values remain null."
+  },
+  "files": {
+    "action-plan.json": "ce18e67130d2ce962f364475c745a50f4d6d8628edde9c497d48879c420d8e75",
+    "assumptions.json": "9aaa337fd81a0505212dbb8870dfc4ee5542854106d6f702f5cbf0770ad83152",
+    "competitors.json": "39678ccbfb305515cf9b3afeb23ebe0eb4fc7077f809fa29883b4a96e7d5f7f4",
+    "contradictions.json": "33c0befae8c2d21dab8ca735cfbecd2ec278b4aa29502f252c20f8ce5825428a",
+    "customers.json": "a4cd966e9499660690700823b314e194e26f60c037a56cea32124526ebf08a49",
+    "evidence.json": "3d846bb5682d8c4e20e1089664919f4ff48e752661218a29ae611e1917356ada",
+    "executive.json": "046c47567b015f760f6ac428994dec5bdfefc5689faa734a659ee005f1d5fbf4",
+    "market.json": "eee36b728af5daff2e17fcd68e75ea2f185d2a975ec7487c67e82be0e2267107",
+    "opportunities.json": "111cf0d90b0c85770049723d1ddcc71bd77e296f0df9b22f1b713dc0e903ee9d",
+    "research-gaps.json": "0672b5f78d6cb8b915c8a7bacc77394ca32567b03bcf75fa1edd45a90eaca4e4",
+    "risks.json": "5970f1248bc7f9e929264ecc0e05385e157703b99b3ff212c7cd575e5cc2eb6f",
+    "sources.json": "964cbab5c3289eac419777a841caf3f7cc20a0c8feca7704c045fc9503a16e19"
+  }
+}

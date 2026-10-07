@@ -1,0 +1,2 @@
+sample_status,change_id,competitor_id,signal_type,observed_date,previous_value,new_value,materiality,evidence_ids,confidence_score,response,owner,status
+FICTIONAL SAMPLE,CHG-001,CMP-001,pricing change,2026-10-06,Unknown,USD 3600 annual synthetic plan,Unverified change; baseline observation only,EV-002,72.00,Establish baseline before asserting a change,Competitive intelligence lead,MONITOR

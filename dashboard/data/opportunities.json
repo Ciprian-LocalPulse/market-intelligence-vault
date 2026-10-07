@@ -1,0 +1,692 @@
+{
+  "meta": {
+    "contract_version": "1.1.0",
+    "repository_version": "1.1.0",
+    "model_version": "1.0.1",
+    "engagement_name": "Northstar Analytics",
+    "mode": "FICTIONAL DEMONSTRATION",
+    "demo_label": "FICTIONAL DEMONSTRATION DATA",
+    "as_of_date": "2026-10-06",
+    "validated_at": "2026-10-07T02:50:04.177418+00:00",
+    "snapshot_id": "a314f18aa1e7f4d221979ba0c29bed1c1b816e66b88870de5e5b80038aff3a4d",
+    "input_digest": "1651cbe5a157597b3319269aaf0306a0a45304574bd7c6898ea41a06441321c1",
+    "approval": {
+      "status": "ACTION NOT APPROVED",
+      "reasons": [
+        "Fictional or unresearched records cannot authorize a live action. A reviewed live engagement and named sign-off are required."
+      ],
+      "review_date": "2026-10-06",
+      "checked_at": "2026-10-07T02:50:03.988263+00:00",
+      "scope": "All recommendations must satisfy unchanged 1.0.1 live-delivery gates. This is a snapshot, not signer authentication."
+    },
+    "score_reconciliation": "Populated derived values reconcile; unavailable optional values remain null."
+  },
+  "data": {
+    "records": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "opportunity_id": "OPP-001",
+        "title": "Assisted reconciliation pilot",
+        "segment_id": "SEG-001",
+        "gap_category": "integration gap",
+        "label": "HYPOTHESIS",
+        "market_demand": 4.0,
+        "growth_potential": 3.0,
+        "pain_intensity": 5.0,
+        "competitive_saturation": 2.0,
+        "differentiation_potential": 4.0,
+        "monetization_potential": 3.0,
+        "implementation_difficulty": 2.0,
+        "time_to_market": 2.0,
+        "evidence_confidence": 2.95,
+        "strategic_fit": 5.0,
+        "evidence_ids": [
+          "EV-001",
+          "EV-002"
+        ],
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002"
+        ],
+        "confidence_score": 59.0,
+        "raw_score": 74.95,
+        "opportunity_score": 52.48,
+        "action_category": "WATCH",
+        "decision_gate": "RESEARCH REQUIRED",
+        "business_impact": "Potential reduction in repetitive work; revenue remains unvalidated",
+        "owner": "Product lead",
+        "next_validation_step": "Validate ten qualified workflows and secure three paid pilot commitments",
+        "status": "PROPOSED",
+        "as_of_date": "2026-10-06",
+        "merit_score": 75.79,
+        "confidence_multiplier": 0.6925,
+        "input_basis_status": "ASSUMED INPUTS",
+        "confidence_category": "Low",
+        "sensitivity": {
+          "status": "STABLE WITHIN TESTED RANGE",
+          "decision_status": "STABLE WITHIN TESTED RANGE",
+          "baseline_rank": 1,
+          "scenarios": [
+            {
+              "factor": "market_demand",
+              "delta": -1,
+              "tested_value": 3.0,
+              "score": 50.3,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "market_demand",
+              "delta": 1,
+              "tested_value": 5,
+              "score": 54.67,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "growth_potential",
+              "delta": -1,
+              "tested_value": 2.0,
+              "score": 51.03,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "growth_potential",
+              "delta": 1,
+              "tested_value": 4.0,
+              "score": 53.94,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "pain_intensity",
+              "delta": -1,
+              "tested_value": 4.0,
+              "score": 50.3,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "competitive_saturation",
+              "delta": -1,
+              "tested_value": 1.0,
+              "score": 53.94,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "competitive_saturation",
+              "delta": 1,
+              "tested_value": 3.0,
+              "score": 51.03,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "differentiation_potential",
+              "delta": -1,
+              "tested_value": 3.0,
+              "score": 51.03,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "differentiation_potential",
+              "delta": 1,
+              "tested_value": 5,
+              "score": 53.94,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "monetization_potential",
+              "delta": -1,
+              "tested_value": 2.0,
+              "score": 51.03,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "monetization_potential",
+              "delta": 1,
+              "tested_value": 4.0,
+              "score": 53.94,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "implementation_difficulty",
+              "delta": -1,
+              "tested_value": 1.0,
+              "score": 53.65,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "implementation_difficulty",
+              "delta": 1,
+              "tested_value": 3.0,
+              "score": 51.32,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "time_to_market",
+              "delta": -1,
+              "tested_value": 1.0,
+              "score": 53.5,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "time_to_market",
+              "delta": 1,
+              "tested_value": 3.0,
+              "score": 51.46,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "strategic_fit",
+              "delta": -1,
+              "tested_value": 4.0,
+              "score": 51.03,
+              "category": "WATCH",
+              "rank": 1,
+              "rank_changed": false,
+              "category_changed": false
+            }
+          ],
+          "method": "One uncertain business factor at a time, ±1, bounded 0–5. Confidence held fixed. Not statistical intervals or joint stress testing. Categories/ranks may require review; strategic actions and approval are never automatically changed."
+        }
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "opportunity_id": "OPP-002",
+        "title": "Packaged connector onboarding",
+        "segment_id": "SEG-002",
+        "gap_category": "integration gap",
+        "label": "HYPOTHESIS",
+        "market_demand": 3.0,
+        "growth_potential": 3.0,
+        "pain_intensity": 4.0,
+        "competitive_saturation": 3.0,
+        "differentiation_potential": 3.0,
+        "monetization_potential": 3.0,
+        "implementation_difficulty": 3.0,
+        "time_to_market": 3.0,
+        "evidence_confidence": 3.6,
+        "strategic_fit": 4.0,
+        "evidence_ids": [
+          "EV-002",
+          "EV-005"
+        ],
+        "claim_ids": [
+          "CLM-002",
+          "CLM-005"
+        ],
+        "confidence_score": 72.0,
+        "raw_score": 60.6,
+        "opportunity_score": 47.4,
+        "action_category": "WATCH",
+        "decision_gate": "VALIDATION ONLY",
+        "business_impact": "Potential reduction in repetitive work; revenue remains unvalidated",
+        "owner": "Product lead",
+        "next_validation_step": "Benchmark second connector and paid onboarding appetite",
+        "status": "PROPOSED",
+        "as_of_date": "2026-10-06",
+        "merit_score": 60.0,
+        "confidence_multiplier": 0.79,
+        "input_basis_status": "ASSUMED INPUTS",
+        "confidence_category": "Moderate",
+        "sensitivity": {
+          "status": "STABLE WITHIN TESTED RANGE",
+          "decision_status": "STABLE WITHIN TESTED RANGE",
+          "baseline_rank": 2,
+          "scenarios": [
+            {
+              "factor": "market_demand",
+              "delta": -1,
+              "tested_value": 2.0,
+              "score": 44.91,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "market_demand",
+              "delta": 1,
+              "tested_value": 4.0,
+              "score": 49.89,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "growth_potential",
+              "delta": -1,
+              "tested_value": 2.0,
+              "score": 45.74,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "growth_potential",
+              "delta": 1,
+              "tested_value": 4.0,
+              "score": 49.06,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "pain_intensity",
+              "delta": -1,
+              "tested_value": 3.0,
+              "score": 44.91,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "pain_intensity",
+              "delta": 1,
+              "tested_value": 5,
+              "score": 49.89,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "competitive_saturation",
+              "delta": -1,
+              "tested_value": 2.0,
+              "score": 49.06,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "competitive_saturation",
+              "delta": 1,
+              "tested_value": 4.0,
+              "score": 45.74,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "differentiation_potential",
+              "delta": -1,
+              "tested_value": 2.0,
+              "score": 45.74,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "differentiation_potential",
+              "delta": 1,
+              "tested_value": 4.0,
+              "score": 49.06,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "monetization_potential",
+              "delta": -1,
+              "tested_value": 2.0,
+              "score": 45.74,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "monetization_potential",
+              "delta": 1,
+              "tested_value": 4.0,
+              "score": 49.06,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "implementation_difficulty",
+              "delta": -1,
+              "tested_value": 2.0,
+              "score": 48.73,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "implementation_difficulty",
+              "delta": 1,
+              "tested_value": 4.0,
+              "score": 46.07,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "time_to_market",
+              "delta": -1,
+              "tested_value": 2.0,
+              "score": 48.56,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "time_to_market",
+              "delta": 1,
+              "tested_value": 4.0,
+              "score": 46.24,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "strategic_fit",
+              "delta": -1,
+              "tested_value": 3.0,
+              "score": 45.74,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "strategic_fit",
+              "delta": 1,
+              "tested_value": 5,
+              "score": 49.06,
+              "category": "WATCH",
+              "rank": 2,
+              "rank_changed": false,
+              "category_changed": false
+            }
+          ],
+          "method": "One uncertain business factor at a time, ±1, bounded 0–5. Confidence held fixed. Not statistical intervals or joint stress testing. Categories/ranks may require review; strategic actions and approval are never automatically changed."
+        }
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "opportunity_id": "OPP-003",
+        "title": "Self-service evidence export",
+        "segment_id": "SEG-001",
+        "gap_category": "integration gap",
+        "label": "HYPOTHESIS",
+        "market_demand": 2.0,
+        "growth_potential": 3.0,
+        "pain_intensity": 2.0,
+        "competitive_saturation": 4.0,
+        "differentiation_potential": 2.0,
+        "monetization_potential": 2.0,
+        "implementation_difficulty": 1.0,
+        "time_to_market": 1.0,
+        "evidence_confidence": 2.95,
+        "strategic_fit": 3.0,
+        "evidence_ids": [
+          "EV-002",
+          "EV-004"
+        ],
+        "claim_ids": [
+          "CLM-002",
+          "CLM-004"
+        ],
+        "confidence_score": 59.0,
+        "raw_score": 48.95,
+        "opportunity_score": 33.53,
+        "action_category": "DEPRIORITIZE",
+        "decision_gate": "RESEARCH REQUIRED",
+        "business_impact": "Potential reduction in repetitive work; revenue remains unvalidated",
+        "owner": "Product lead",
+        "next_validation_step": "Observe two export workflows before building",
+        "status": "PROPOSED",
+        "as_of_date": "2026-10-06",
+        "merit_score": 48.42,
+        "confidence_multiplier": 0.6925,
+        "input_basis_status": "ASSUMED INPUTS",
+        "confidence_category": "Low",
+        "sensitivity": {
+          "status": "STABLE WITHIN TESTED RANGE",
+          "decision_status": "STABLE WITHIN TESTED RANGE",
+          "baseline_rank": 3,
+          "scenarios": [
+            {
+              "factor": "market_demand",
+              "delta": -1,
+              "tested_value": 1.0,
+              "score": 31.34,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "market_demand",
+              "delta": 1,
+              "tested_value": 3.0,
+              "score": 35.72,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "growth_potential",
+              "delta": -1,
+              "tested_value": 2.0,
+              "score": 32.07,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "growth_potential",
+              "delta": 1,
+              "tested_value": 4.0,
+              "score": 34.99,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "pain_intensity",
+              "delta": -1,
+              "tested_value": 1.0,
+              "score": 31.34,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "pain_intensity",
+              "delta": 1,
+              "tested_value": 3.0,
+              "score": 35.72,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "competitive_saturation",
+              "delta": -1,
+              "tested_value": 3.0,
+              "score": 34.99,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "competitive_saturation",
+              "delta": 1,
+              "tested_value": 5,
+              "score": 32.07,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "differentiation_potential",
+              "delta": -1,
+              "tested_value": 1.0,
+              "score": 32.07,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "differentiation_potential",
+              "delta": 1,
+              "tested_value": 3.0,
+              "score": 34.99,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "monetization_potential",
+              "delta": -1,
+              "tested_value": 1.0,
+              "score": 32.07,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "monetization_potential",
+              "delta": 1,
+              "tested_value": 3.0,
+              "score": 34.99,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "implementation_difficulty",
+              "delta": -1,
+              "tested_value": 0,
+              "score": 34.7,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "implementation_difficulty",
+              "delta": 1,
+              "tested_value": 2.0,
+              "score": 32.37,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "time_to_market",
+              "delta": -1,
+              "tested_value": 0,
+              "score": 34.55,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "time_to_market",
+              "delta": 1,
+              "tested_value": 2.0,
+              "score": 32.51,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "strategic_fit",
+              "delta": -1,
+              "tested_value": 2.0,
+              "score": 32.07,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            },
+            {
+              "factor": "strategic_fit",
+              "delta": 1,
+              "tested_value": 4.0,
+              "score": 34.99,
+              "category": "DEPRIORITIZE",
+              "rank": 3,
+              "rank_changed": false,
+              "category_changed": false
+            }
+          ],
+          "method": "One uncertain business factor at a time, ±1, bounded 0–5. Confidence held fixed. Not statistical intervals or joint stress testing. Categories/ranks may require review; strategic actions and approval are never automatically changed."
+        }
+      }
+    ]
+  }
+}

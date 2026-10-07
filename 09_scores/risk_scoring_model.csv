@@ -1,0 +1,6 @@
+factor,weight,input_min,input_max,direction,definition,anchor_0,anchor_mid,anchor_max
+likelihood,30,0,5,positive,Likelihood within stated decision horizon,Implausible within stated horizon,Plausible in stated horizon,Already occurring
+impact,35,0,5,positive,Severity against capital and operating objectives,Immaterial consequence,Material rework or objective delay,Viability or unacceptable legal/safety consequence
+detectability,15,0,5,positive,Difficulty of detecting before material harm,Reliably detected before harm,Intermittent warning with limits,Usually invisible before harm
+velocity,10,0,5,positive,Speed from trigger to harm,Harm develops over more than a year,Weeks from trigger to harm,Hours from trigger to harm
+mitigation_readiness,10,0,5,inverse,Tested response capability,No response exists,Owned partly tested response,Tested available response with verified effectiveness

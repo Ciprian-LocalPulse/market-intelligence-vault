@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "contract_version": "1.1.0",
+    "repository_version": "1.1.0",
+    "model_version": "1.0.1",
+    "engagement_name": "Northstar Analytics",
+    "mode": "FICTIONAL DEMONSTRATION",
+    "demo_label": "FICTIONAL DEMONSTRATION DATA",
+    "as_of_date": "2026-10-06",
+    "validated_at": "2026-10-07T02:50:04.177418+00:00",
+    "snapshot_id": "a314f18aa1e7f4d221979ba0c29bed1c1b816e66b88870de5e5b80038aff3a4d",
+    "input_digest": "1651cbe5a157597b3319269aaf0306a0a45304574bd7c6898ea41a06441321c1",
+    "approval": {
+      "status": "ACTION NOT APPROVED",
+      "reasons": [
+        "Fictional or unresearched records cannot authorize a live action. A reviewed live engagement and named sign-off are required."
+      ],
+      "review_date": "2026-10-06",
+      "checked_at": "2026-10-07T02:50:03.988263+00:00",
+      "scope": "All recommendations must satisfy unchanged 1.0.1 live-delivery gates. This is a snapshot, not signer authentication."
+    },
+    "score_reconciliation": "Populated derived values reconcile; unavailable optional values remain null."
+  },
+  "data": {
+    "records": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "market_id": "MKT-001",
+        "market": "Recurring reconciliation software in Synthetic Region A",
+        "scope": "Eligible organizations with recurring multi-source work",
+        "currency": "USD",
+        "period": "Annual steady-state spend",
+        "tam": 28800000.0,
+        "sam": 11520000.0,
+        "som": 345600.0,
+        "label": "ESTIMATE",
+        "market_size": 3.0,
+        "growth_rate": 3.0,
+        "profitability": 3.0,
+        "customer_concentration": 2.0,
+        "switching_friction": 3.0,
+        "regulation": 2.0,
+        "competitive_intensity": 3.0,
+        "barriers_to_entry": 3.0,
+        "technology_disruption": 3.0,
+        "macro_sensitivity": 2.0,
+        "evidence_ids": [
+          "EV-003"
+        ],
+        "claim_ids": [
+          "CLM-003"
+        ],
+        "confidence_score": 66.0,
+        "market_attractiveness_score": 53.2,
+        "rating": "Challenging",
+        "key_drivers": "Recurring operational workload",
+        "key_risks": "Population and willingness to pay are synthetic assumptions",
+        "recommended_posture": "MONITOR",
+        "as_of_date": "2026-10-06",
+        "confidence_category": "Moderate"
+      }
+    ],
+    "signals": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "signal_id": "SIG-001",
+        "signal_type": "weak signal",
+        "signal": "Assisted setup may reduce deployment objections",
+        "label": "HYPOTHESIS",
+        "observed_date": "2026-10-06",
+        "evidence_ids": [
+          "EV-002",
+          "EV-004"
+        ],
+        "confidence_score": 59.0,
+        "promotion_criteria": "Three independent verified deployment observations",
+        "response": "Observe before elevating to trend",
+        "owner": "Research lead",
+        "status": "MONITOR",
+        "confidence_category": "Low"
+      }
+    ]
+  }
+}

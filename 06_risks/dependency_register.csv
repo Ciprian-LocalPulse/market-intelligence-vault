@@ -1,0 +1,2 @@
+sample_status,dependency_id,dependency,dependent_action,evidence_ids,confidence_score,owner,due_date,fallback,status,decision_ids,critical
+FICTIONAL SAMPLE,DEP-001,Second connector and security review,ACT-003,EV-004|EV-005,59.00,Delivery lead,2026-11-05,Manual import with scoped access,OPEN,DEC-001,true

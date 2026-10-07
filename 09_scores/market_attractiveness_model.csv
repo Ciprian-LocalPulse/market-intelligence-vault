@@ -1,0 +1,11 @@
+factor,weight,input_min,input_max,direction,definition,anchor_0,anchor_mid,anchor_max
+market_size,15,0,5,positive,"Accessible annual spend, not broad category TAM",Below documented viable reachable spend threshold,Enough reachable spend for a narrow viable entry,Reachable spend supports multiple scale paths
+growth_rate,12,0,5,positive,Comparable scope growth,Comparable sustained contraction,Comparable stable-to-moderate expansion,Strong sustained growth above defined benchmark
+profitability,15,0,5,positive,Sustainable contribution economics,Negative sustainable contribution,Positive contribution with fragile assumptions,Observed durable contribution through sensitivity cases
+customer_concentration,8,0,5,inverse,Dependence on few buyers,Dispersed reachable buyers,A few channels or buyers materially influence economics,Single buyer/channel dominates achievable spend
+switching_friction,8,0,5,inverse,Entrant difficulty displacing existing behavior,Low migration effort observed,Material but manageable process change,Locked contracts/data/workflow prevent displacement
+regulation,8,0,5,inverse,Compliance burden and uncertainty,Verified minimal entrant burden,Known material manageable compliance work,Prohibitive or unresolved critical requirement
+competitive_intensity,10,0,5,inverse,Strength of substitute and incumbent responses,Weak alternatives with limited responses,Capable incumbents and substitutes,Strong funded rivals with aggressive matched responses
+barriers_to_entry,8,0,5,inverse,Entrant capital and capability burden,Entrant requirements already met,New capacity or channel investment needed,Capital/access/capability burden exceeds resources
+technology_disruption,8,0,5,inverse,Exposure to substitution,Low observed substitution exposure,Credible substitution pathway emerging,Current solution made obsolete by verified alternatives
+macro_sensitivity,8,0,5,inverse,Exposure to downturn or cost shocks,Demand resilient in observed stress,Moderate dependence on economic conditions,Demand or cost highly exposed to downturn/shock

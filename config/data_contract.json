@@ -1,0 +1,2735 @@
+{
+  "09_scores/confidence_model.csv": {
+    "fields": [
+      "factor",
+      "weight",
+      "input_min",
+      "input_max",
+      "direction",
+      "definition",
+      "anchor_0",
+      "anchor_mid",
+      "anchor_max"
+    ],
+    "primary": "factor",
+    "required": [
+      "factor",
+      "weight",
+      "input_min",
+      "input_max",
+      "direction",
+      "definition",
+      "anchor_0",
+      "anchor_mid",
+      "anchor_max"
+    ],
+    "references": {},
+    "ranges": {
+      "weight": [
+        0,
+        100
+      ],
+      "input_min": [
+        0,
+        0
+      ],
+      "input_max": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "direction": [
+        "positive",
+        "inverse"
+      ]
+    },
+    "integers": []
+  },
+  "09_scores/opportunity_scoring_model.csv": {
+    "fields": [
+      "factor",
+      "weight",
+      "input_min",
+      "input_max",
+      "direction",
+      "definition",
+      "anchor_0",
+      "anchor_mid",
+      "anchor_max"
+    ],
+    "primary": "factor",
+    "required": [
+      "factor",
+      "weight",
+      "input_min",
+      "input_max",
+      "direction",
+      "definition",
+      "anchor_0",
+      "anchor_mid",
+      "anchor_max"
+    ],
+    "references": {},
+    "ranges": {
+      "weight": [
+        0,
+        100
+      ],
+      "input_min": [
+        0,
+        0
+      ],
+      "input_max": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "direction": [
+        "positive",
+        "inverse"
+      ]
+    },
+    "integers": []
+  },
+  "09_scores/risk_scoring_model.csv": {
+    "fields": [
+      "factor",
+      "weight",
+      "input_min",
+      "input_max",
+      "direction",
+      "definition",
+      "anchor_0",
+      "anchor_mid",
+      "anchor_max"
+    ],
+    "primary": "factor",
+    "required": [
+      "factor",
+      "weight",
+      "input_min",
+      "input_max",
+      "direction",
+      "definition",
+      "anchor_0",
+      "anchor_mid",
+      "anchor_max"
+    ],
+    "references": {},
+    "ranges": {
+      "weight": [
+        0,
+        100
+      ],
+      "input_min": [
+        0,
+        0
+      ],
+      "input_max": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "direction": [
+        "positive",
+        "inverse"
+      ]
+    },
+    "integers": []
+  },
+  "09_scores/market_attractiveness_model.csv": {
+    "fields": [
+      "factor",
+      "weight",
+      "input_min",
+      "input_max",
+      "direction",
+      "definition",
+      "anchor_0",
+      "anchor_mid",
+      "anchor_max"
+    ],
+    "primary": "factor",
+    "required": [
+      "factor",
+      "weight",
+      "input_min",
+      "input_max",
+      "direction",
+      "definition",
+      "anchor_0",
+      "anchor_mid",
+      "anchor_max"
+    ],
+    "references": {},
+    "ranges": {
+      "weight": [
+        0,
+        100
+      ],
+      "input_min": [
+        0,
+        0
+      ],
+      "input_max": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "direction": [
+        "positive",
+        "inverse"
+      ]
+    },
+    "integers": []
+  },
+  "09_scores/competitor_pressure_model.csv": {
+    "fields": [
+      "factor",
+      "weight",
+      "input_min",
+      "input_max",
+      "direction",
+      "definition",
+      "anchor_0",
+      "anchor_mid",
+      "anchor_max"
+    ],
+    "primary": "factor",
+    "required": [
+      "factor",
+      "weight",
+      "input_min",
+      "input_max",
+      "direction",
+      "definition",
+      "anchor_0",
+      "anchor_mid",
+      "anchor_max"
+    ],
+    "references": {},
+    "ranges": {
+      "weight": [
+        0,
+        100
+      ],
+      "input_min": [
+        0,
+        0
+      ],
+      "input_max": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "direction": [
+        "positive",
+        "inverse"
+      ]
+    },
+    "integers": []
+  },
+  "09_scores/gap_scoring_model.csv": {
+    "fields": [
+      "factor",
+      "weight",
+      "input_min",
+      "input_max",
+      "direction",
+      "definition",
+      "anchor_0",
+      "anchor_mid",
+      "anchor_max"
+    ],
+    "primary": "factor",
+    "required": [
+      "factor",
+      "weight",
+      "input_min",
+      "input_max",
+      "direction",
+      "definition",
+      "anchor_0",
+      "anchor_mid",
+      "anchor_max"
+    ],
+    "references": {},
+    "ranges": {
+      "weight": [
+        0,
+        100
+      ],
+      "input_min": [
+        0,
+        0
+      ],
+      "input_max": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "direction": [
+        "positive",
+        "inverse"
+      ]
+    },
+    "integers": []
+  },
+  "08_evidence/source_library.csv": {
+    "fields": [
+      "sample_status",
+      "source_id",
+      "source_title",
+      "source_url",
+      "publisher",
+      "publication_date",
+      "access_date",
+      "source_type",
+      "topic",
+      "tier",
+      "reliability_score",
+      "origin_group",
+      "locator",
+      "archive_reference",
+      "usage_rights",
+      "analyst_notes",
+      "archive_sha256"
+    ],
+    "primary": "source_id",
+    "required": [
+      "sample_status",
+      "source_id",
+      "source_title",
+      "source_url",
+      "publisher",
+      "access_date",
+      "source_type",
+      "topic",
+      "tier",
+      "reliability_score",
+      "origin_group",
+      "locator",
+      "archive_reference",
+      "usage_rights",
+      "analyst_notes",
+      "archive_sha256"
+    ],
+    "references": {},
+    "ranges": {
+      "tier": [
+        1,
+        5
+      ],
+      "reliability_score": [
+        0,
+        25
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "integers": [
+      "tier"
+    ]
+  },
+  "08_evidence/claims_register.csv": {
+    "fields": [
+      "sample_status",
+      "claim_id",
+      "label",
+      "finding",
+      "business_impact",
+      "recommended_action",
+      "evidence_ids",
+      "confidence_score",
+      "confidence_level",
+      "contradiction_flag",
+      "owner",
+      "decision_status",
+      "as_of_date",
+      "priority",
+      "freshness_status",
+      "claim_limit"
+    ],
+    "primary": "claim_id",
+    "required": [
+      "sample_status",
+      "claim_id",
+      "label",
+      "finding",
+      "business_impact",
+      "recommended_action",
+      "contradiction_flag",
+      "owner",
+      "decision_status",
+      "as_of_date",
+      "priority"
+    ],
+    "references": {
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ],
+      "priority": [
+        1,
+        5
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "label": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ],
+      "contradiction_flag": [
+        "true",
+        "false"
+      ],
+      "decision_status": [
+        "PROPOSED",
+        "APPROVED",
+        "REJECTED",
+        "RETIRED"
+      ],
+      "freshness_status": [
+        "Current",
+        "Recent",
+        "Aging",
+        "Stale",
+        "Unknown"
+      ]
+    },
+    "integers": [
+      "priority"
+    ]
+  },
+  "08_evidence/evidence_register.csv": {
+    "fields": [
+      "sample_status",
+      "evidence_id",
+      "claim_id",
+      "source_id",
+      "source_title",
+      "source_url",
+      "publisher",
+      "publication_date",
+      "access_date",
+      "topic",
+      "evidence_type",
+      "direct_or_indirect",
+      "finding",
+      "supporting_quote_or_summary",
+      "locator",
+      "reliability_score",
+      "freshness_score",
+      "directness_score",
+      "corroboration_score",
+      "relevance_score",
+      "confidence_score",
+      "confidence_level",
+      "evidence_grade",
+      "freshness_status",
+      "analyst_notes",
+      "contradiction_flag",
+      "verification_status",
+      "origin_group"
+    ],
+    "primary": "evidence_id",
+    "required": [
+      "sample_status",
+      "evidence_id",
+      "claim_id",
+      "source_id",
+      "source_title",
+      "source_url",
+      "publisher",
+      "access_date",
+      "topic",
+      "evidence_type",
+      "direct_or_indirect",
+      "finding",
+      "supporting_quote_or_summary",
+      "locator",
+      "reliability_score",
+      "directness_score",
+      "corroboration_score",
+      "relevance_score",
+      "analyst_notes",
+      "contradiction_flag",
+      "verification_status",
+      "origin_group"
+    ],
+    "references": {
+      "claim_id": "08_evidence/claims_register.csv:claim_id",
+      "source_id": "08_evidence/source_library.csv:source_id"
+    },
+    "ranges": {
+      "reliability_score": [
+        0,
+        25
+      ],
+      "freshness_score": [
+        0,
+        20
+      ],
+      "directness_score": [
+        0,
+        20
+      ],
+      "corroboration_score": [
+        0,
+        20
+      ],
+      "relevance_score": [
+        0,
+        15
+      ],
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "evidence_type": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ],
+      "direct_or_indirect": [
+        "direct",
+        "indirect"
+      ],
+      "verification_status": [
+        "verified",
+        "unverified",
+        "speculation",
+        "unsupported"
+      ],
+      "contradiction_flag": [
+        "true",
+        "false"
+      ],
+      "evidence_grade": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "freshness_status": [
+        "Current",
+        "Recent",
+        "Aging",
+        "Stale",
+        "Unknown"
+      ],
+      "confidence_level": [
+        "Very High",
+        "High",
+        "Moderate",
+        "Low",
+        "Very Low"
+      ]
+    },
+    "integers": []
+  },
+  "08_evidence/claim_evidence_map.csv": {
+    "fields": [
+      "sample_status",
+      "map_id",
+      "claim_id",
+      "evidence_id",
+      "relationship",
+      "materiality",
+      "interpretation"
+    ],
+    "primary": "map_id",
+    "required": [
+      "sample_status",
+      "map_id",
+      "claim_id",
+      "evidence_id",
+      "relationship",
+      "materiality",
+      "interpretation"
+    ],
+    "references": {
+      "claim_id": "08_evidence/claims_register.csv:claim_id",
+      "evidence_id": "08_evidence/evidence_register.csv:evidence_id"
+    },
+    "ranges": {},
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "relationship": [
+        "supports",
+        "contradicts",
+        "context"
+      ],
+      "materiality": [
+        "critical",
+        "supporting"
+      ]
+    },
+    "integers": []
+  },
+  "05_opportunities/opportunity_database.csv": {
+    "fields": [
+      "sample_status",
+      "opportunity_id",
+      "title",
+      "segment_id",
+      "gap_category",
+      "label",
+      "market_demand",
+      "growth_potential",
+      "pain_intensity",
+      "competitive_saturation",
+      "differentiation_potential",
+      "monetization_potential",
+      "implementation_difficulty",
+      "time_to_market",
+      "evidence_confidence",
+      "strategic_fit",
+      "evidence_ids",
+      "claim_ids",
+      "confidence_score",
+      "raw_score",
+      "opportunity_score",
+      "action_category",
+      "decision_gate",
+      "business_impact",
+      "owner",
+      "next_validation_step",
+      "status",
+      "as_of_date",
+      "merit_score",
+      "confidence_multiplier",
+      "input_basis_status"
+    ],
+    "primary": "opportunity_id",
+    "required": [
+      "sample_status",
+      "opportunity_id",
+      "title",
+      "segment_id",
+      "gap_category",
+      "label",
+      "market_demand",
+      "growth_potential",
+      "pain_intensity",
+      "competitive_saturation",
+      "differentiation_potential",
+      "monetization_potential",
+      "implementation_difficulty",
+      "time_to_market",
+      "strategic_fit",
+      "evidence_ids",
+      "claim_ids",
+      "business_impact",
+      "owner",
+      "next_validation_step",
+      "status",
+      "as_of_date"
+    ],
+    "references": {
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id",
+      "claim_ids": "08_evidence/claims_register.csv:claim_id",
+      "segment_id": "04_customers/customer_segments_template.csv:segment_id"
+    },
+    "ranges": {
+      "market_demand": [
+        0,
+        5
+      ],
+      "growth_potential": [
+        0,
+        5
+      ],
+      "pain_intensity": [
+        0,
+        5
+      ],
+      "competitive_saturation": [
+        0,
+        5
+      ],
+      "differentiation_potential": [
+        0,
+        5
+      ],
+      "monetization_potential": [
+        0,
+        5
+      ],
+      "implementation_difficulty": [
+        0,
+        5
+      ],
+      "time_to_market": [
+        0,
+        5
+      ],
+      "evidence_confidence": [
+        0,
+        5
+      ],
+      "strategic_fit": [
+        0,
+        5
+      ],
+      "confidence_score": [
+        0,
+        100
+      ],
+      "raw_score": [
+        0,
+        100
+      ],
+      "opportunity_score": [
+        0,
+        100
+      ],
+      "merit_score": [
+        0,
+        100
+      ],
+      "confidence_multiplier": [
+        0,
+        1
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "label": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ],
+      "gap_category": [
+        "underserved customer",
+        "missing feature",
+        "poor experience",
+        "pricing gap",
+        "geographic gap",
+        "trust gap",
+        "distribution gap",
+        "education gap",
+        "integration gap",
+        "speed/convenience gap",
+        "regulatory opportunity",
+        "business model gap"
+      ],
+      "status": [
+        "PROPOSED",
+        "VALIDATING",
+        "APPROVED",
+        "REJECTED",
+        "RETIRED"
+      ]
+    },
+    "integers": []
+  },
+  "05_opportunities/opportunity_scorecard.csv": {
+    "fields": [
+      "sample_status",
+      "opportunity_id",
+      "raw_score",
+      "confidence_score",
+      "opportunity_score",
+      "action_category",
+      "decision_gate",
+      "as_of_date",
+      "merit_score",
+      "confidence_multiplier",
+      "input_basis_status"
+    ],
+    "primary": "opportunity_id",
+    "required": [
+      "sample_status",
+      "opportunity_id",
+      "raw_score",
+      "confidence_score",
+      "opportunity_score",
+      "action_category",
+      "decision_gate",
+      "as_of_date"
+    ],
+    "references": {
+      "opportunity_id": "05_opportunities/opportunity_database.csv:opportunity_id"
+    },
+    "ranges": {
+      "raw_score": [
+        0,
+        100
+      ],
+      "confidence_score": [
+        0,
+        100
+      ],
+      "opportunity_score": [
+        0,
+        100
+      ],
+      "merit_score": [
+        0,
+        100
+      ],
+      "confidence_multiplier": [
+        0,
+        1
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "integers": []
+  },
+  "06_risks/risk_register.csv": {
+    "fields": [
+      "sample_status",
+      "risk_id",
+      "title",
+      "category",
+      "label",
+      "horizon_days",
+      "likelihood",
+      "impact",
+      "detectability",
+      "velocity",
+      "mitigation_readiness",
+      "evidence_ids",
+      "claim_ids",
+      "confidence_score",
+      "risk_score",
+      "classification",
+      "override",
+      "override_reason",
+      "mitigation",
+      "trigger",
+      "owner",
+      "residual_risk",
+      "status",
+      "as_of_date",
+      "structural_zero",
+      "review_required"
+    ],
+    "primary": "risk_id",
+    "required": [
+      "sample_status",
+      "risk_id",
+      "title",
+      "category",
+      "label",
+      "horizon_days",
+      "likelihood",
+      "impact",
+      "detectability",
+      "velocity",
+      "mitigation_readiness",
+      "evidence_ids",
+      "claim_ids",
+      "override",
+      "mitigation",
+      "trigger",
+      "owner",
+      "residual_risk",
+      "status",
+      "as_of_date"
+    ],
+    "references": {
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id",
+      "claim_ids": "08_evidence/claims_register.csv:claim_id"
+    },
+    "ranges": {
+      "likelihood": [
+        0,
+        5
+      ],
+      "impact": [
+        0,
+        5
+      ],
+      "detectability": [
+        0,
+        5
+      ],
+      "velocity": [
+        0,
+        5
+      ],
+      "mitigation_readiness": [
+        0,
+        5
+      ],
+      "horizon_days": [
+        1,
+        3650
+      ],
+      "confidence_score": [
+        0,
+        100
+      ],
+      "risk_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "label": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ],
+      "override": [
+        "true",
+        "false"
+      ],
+      "classification": [
+        "Critical",
+        "High",
+        "Moderate",
+        "Low"
+      ],
+      "status": [
+        "OPEN",
+        "MITIGATING",
+        "ACCEPTED",
+        "CLOSED"
+      ]
+    },
+    "integers": [
+      "horizon_days"
+    ]
+  },
+  "03_competitors/competitor_database.csv": {
+    "fields": [
+      "sample_status",
+      "competitor_id",
+      "company",
+      "website",
+      "geography",
+      "segment",
+      "product",
+      "pricing",
+      "pricing_currency",
+      "pricing_period",
+      "positioning",
+      "target_customer",
+      "funding",
+      "partnerships",
+      "strengths",
+      "weaknesses",
+      "differentiators",
+      "recent_changes",
+      "market_signals",
+      "brand_strength",
+      "pricing_pressure",
+      "product_maturity",
+      "distribution",
+      "switching_costs",
+      "capital_strength",
+      "innovation_velocity",
+      "customer_loyalty",
+      "evidence_ids",
+      "claim_ids",
+      "confidence_score",
+      "competitor_pressure_score",
+      "owner",
+      "as_of_date"
+    ],
+    "primary": "competitor_id",
+    "required": [
+      "sample_status",
+      "competitor_id",
+      "company",
+      "website",
+      "geography",
+      "segment",
+      "product",
+      "pricing",
+      "pricing_currency",
+      "pricing_period",
+      "positioning",
+      "target_customer",
+      "funding",
+      "partnerships",
+      "strengths",
+      "weaknesses",
+      "differentiators",
+      "recent_changes",
+      "market_signals",
+      "brand_strength",
+      "pricing_pressure",
+      "product_maturity",
+      "distribution",
+      "switching_costs",
+      "capital_strength",
+      "innovation_velocity",
+      "customer_loyalty",
+      "evidence_ids",
+      "claim_ids",
+      "owner",
+      "as_of_date"
+    ],
+    "references": {
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id",
+      "claim_ids": "08_evidence/claims_register.csv:claim_id",
+      "segment": "04_customers/customer_segments_template.csv:segment_id"
+    },
+    "ranges": {
+      "brand_strength": [
+        0,
+        5
+      ],
+      "pricing_pressure": [
+        0,
+        5
+      ],
+      "product_maturity": [
+        0,
+        5
+      ],
+      "distribution": [
+        0,
+        5
+      ],
+      "switching_costs": [
+        0,
+        5
+      ],
+      "capital_strength": [
+        0,
+        5
+      ],
+      "innovation_velocity": [
+        0,
+        5
+      ],
+      "customer_loyalty": [
+        0,
+        5
+      ],
+      "confidence_score": [
+        0,
+        100
+      ],
+      "competitor_pressure_score": [
+        0,
+        100
+      ],
+      "pricing": [
+        0,
+        100000000
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "integers": []
+  },
+  "03_competitors/competitor_matrix_template.csv": {
+    "fields": [
+      "sample_status",
+      "competitor_id",
+      "assessment_id",
+      "criterion",
+      "rating_0_5",
+      "basis",
+      "evidence_ids",
+      "confidence_score",
+      "as_of_date"
+    ],
+    "primary": "assessment_id",
+    "required": [
+      "sample_status",
+      "competitor_id",
+      "assessment_id",
+      "criterion",
+      "rating_0_5",
+      "basis",
+      "evidence_ids",
+      "as_of_date"
+    ],
+    "references": {
+      "competitor_id": "03_competitors/competitor_database.csv:competitor_id",
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ],
+      "rating_0_5": [
+        0,
+        5
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "integers": [
+      "rating_0_5"
+    ]
+  },
+  "03_competitors/positioning_map_template.csv": {
+    "fields": [
+      "sample_status",
+      "competitor_id",
+      "position_id",
+      "x_axis",
+      "x_value_0_5",
+      "y_axis",
+      "y_value_0_5",
+      "interpretation",
+      "evidence_ids",
+      "confidence_score",
+      "as_of_date"
+    ],
+    "primary": "position_id",
+    "required": [
+      "sample_status",
+      "competitor_id",
+      "position_id",
+      "x_axis",
+      "x_value_0_5",
+      "y_axis",
+      "y_value_0_5",
+      "interpretation",
+      "evidence_ids",
+      "as_of_date"
+    ],
+    "references": {
+      "competitor_id": "03_competitors/competitor_database.csv:competitor_id",
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ],
+      "x_value_0_5": [
+        0,
+        5
+      ],
+      "y_value_0_5": [
+        0,
+        5
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "integers": [
+      "x_value_0_5",
+      "y_value_0_5"
+    ]
+  },
+  "03_competitors/pricing_comparison_template.csv": {
+    "fields": [
+      "sample_status",
+      "competitor_id",
+      "price_id",
+      "plan",
+      "price",
+      "currency",
+      "billing_period",
+      "minimum_commitment",
+      "included_units",
+      "overage",
+      "setup_fee",
+      "tax_basis",
+      "comparison_limit",
+      "evidence_ids",
+      "confidence_score",
+      "as_of_date"
+    ],
+    "primary": "price_id",
+    "required": [
+      "sample_status",
+      "competitor_id",
+      "price_id",
+      "plan",
+      "price",
+      "currency",
+      "billing_period",
+      "minimum_commitment",
+      "included_units",
+      "overage",
+      "setup_fee",
+      "tax_basis",
+      "comparison_limit",
+      "evidence_ids",
+      "as_of_date"
+    ],
+    "references": {
+      "competitor_id": "03_competitors/competitor_database.csv:competitor_id",
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "integers": []
+  },
+  "03_competitors/competitor_change_log.csv": {
+    "fields": [
+      "sample_status",
+      "change_id",
+      "competitor_id",
+      "signal_type",
+      "observed_date",
+      "previous_value",
+      "new_value",
+      "materiality",
+      "evidence_ids",
+      "confidence_score",
+      "response",
+      "owner",
+      "status"
+    ],
+    "primary": "change_id",
+    "required": [
+      "sample_status",
+      "change_id",
+      "competitor_id",
+      "signal_type",
+      "observed_date",
+      "previous_value",
+      "new_value",
+      "materiality",
+      "evidence_ids",
+      "response",
+      "owner",
+      "status"
+    ],
+    "references": {
+      "competitor_id": "03_competitors/competitor_database.csv:competitor_id",
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "signal_type": [
+        "pricing change",
+        "new product",
+        "market entrant",
+        "partnership",
+        "funding",
+        "regulatory change",
+        "executive change",
+        "customer sentiment change",
+        "product launch"
+      ]
+    },
+    "integers": []
+  },
+  "04_customers/customer_segments_template.csv": {
+    "fields": [
+      "sample_status",
+      "segment_id",
+      "name",
+      "icp_inclusion",
+      "icp_exclusion",
+      "jobs_to_be_done",
+      "pains",
+      "desired_outcomes",
+      "buying_triggers",
+      "switching_triggers",
+      "decision_criteria",
+      "price_sensitivity",
+      "objections",
+      "evidence_ids",
+      "claim_ids",
+      "confidence_score",
+      "label",
+      "population_limit",
+      "owner",
+      "as_of_date"
+    ],
+    "primary": "segment_id",
+    "required": [
+      "sample_status",
+      "segment_id",
+      "name",
+      "icp_inclusion",
+      "icp_exclusion",
+      "jobs_to_be_done",
+      "pains",
+      "desired_outcomes",
+      "buying_triggers",
+      "switching_triggers",
+      "decision_criteria",
+      "price_sensitivity",
+      "objections",
+      "evidence_ids",
+      "claim_ids",
+      "label",
+      "population_limit",
+      "owner",
+      "as_of_date"
+    ],
+    "references": {
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id",
+      "claim_ids": "08_evidence/claims_register.csv:claim_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "label": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ]
+    },
+    "integers": []
+  },
+  "04_customers/pain_points_template.csv": {
+    "fields": [
+      "sample_status",
+      "pain_id",
+      "segment_id",
+      "pain",
+      "frequency",
+      "severity_0_5",
+      "cost_basis",
+      "label",
+      "evidence_ids",
+      "confidence_score",
+      "as_of_date"
+    ],
+    "primary": "pain_id",
+    "required": [
+      "sample_status",
+      "pain_id",
+      "segment_id",
+      "pain",
+      "frequency",
+      "severity_0_5",
+      "cost_basis",
+      "label",
+      "evidence_ids",
+      "as_of_date"
+    ],
+    "references": {
+      "segment_id": "04_customers/customer_segments_template.csv:segment_id",
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ],
+      "severity_0_5": [
+        0,
+        5
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "label": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ]
+    },
+    "integers": [
+      "severity_0_5"
+    ]
+  },
+  "04_customers/buying_triggers_template.csv": {
+    "fields": [
+      "sample_status",
+      "trigger_id",
+      "segment_id",
+      "trigger",
+      "trigger_type",
+      "observable_event",
+      "validation_question",
+      "label",
+      "evidence_ids",
+      "confidence_score",
+      "as_of_date"
+    ],
+    "primary": "trigger_id",
+    "required": [
+      "sample_status",
+      "trigger_id",
+      "segment_id",
+      "trigger",
+      "trigger_type",
+      "observable_event",
+      "validation_question",
+      "label",
+      "evidence_ids",
+      "as_of_date"
+    ],
+    "references": {
+      "segment_id": "04_customers/customer_segments_template.csv:segment_id",
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "label": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ]
+    },
+    "integers": []
+  },
+  "04_customers/objections_template.csv": {
+    "fields": [
+      "sample_status",
+      "objection_id",
+      "segment_id",
+      "objection",
+      "decision_stage",
+      "response_test",
+      "rejection_threshold",
+      "label",
+      "evidence_ids",
+      "confidence_score",
+      "as_of_date"
+    ],
+    "primary": "objection_id",
+    "required": [
+      "sample_status",
+      "objection_id",
+      "segment_id",
+      "objection",
+      "decision_stage",
+      "response_test",
+      "rejection_threshold",
+      "label",
+      "evidence_ids",
+      "as_of_date"
+    ],
+    "references": {
+      "segment_id": "04_customers/customer_segments_template.csv:segment_id",
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "label": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ]
+    },
+    "integers": []
+  },
+  "04_customers/customer_evidence_template.csv": {
+    "fields": [
+      "sample_status",
+      "customer_evidence_id",
+      "segment_id",
+      "method",
+      "sample_size",
+      "sampling_frame",
+      "insight",
+      "bias_limit",
+      "consent_status",
+      "label",
+      "evidence_ids",
+      "confidence_score",
+      "as_of_date"
+    ],
+    "primary": "customer_evidence_id",
+    "required": [
+      "sample_status",
+      "customer_evidence_id",
+      "segment_id",
+      "method",
+      "sample_size",
+      "sampling_frame",
+      "insight",
+      "bias_limit",
+      "consent_status",
+      "label",
+      "evidence_ids",
+      "as_of_date"
+    ],
+    "references": {
+      "segment_id": "04_customers/customer_segments_template.csv:segment_id",
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "label": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ]
+    },
+    "integers": []
+  },
+  "02_market/market_assessment.csv": {
+    "fields": [
+      "sample_status",
+      "market_id",
+      "market",
+      "scope",
+      "currency",
+      "period",
+      "tam",
+      "sam",
+      "som",
+      "label",
+      "market_size",
+      "growth_rate",
+      "profitability",
+      "customer_concentration",
+      "switching_friction",
+      "regulation",
+      "competitive_intensity",
+      "barriers_to_entry",
+      "technology_disruption",
+      "macro_sensitivity",
+      "evidence_ids",
+      "claim_ids",
+      "confidence_score",
+      "market_attractiveness_score",
+      "rating",
+      "key_drivers",
+      "key_risks",
+      "recommended_posture",
+      "as_of_date"
+    ],
+    "primary": "market_id",
+    "required": [
+      "sample_status",
+      "market_id",
+      "market",
+      "scope",
+      "currency",
+      "period",
+      "tam",
+      "sam",
+      "som",
+      "label",
+      "market_size",
+      "growth_rate",
+      "profitability",
+      "customer_concentration",
+      "switching_friction",
+      "regulation",
+      "competitive_intensity",
+      "barriers_to_entry",
+      "technology_disruption",
+      "macro_sensitivity",
+      "evidence_ids",
+      "claim_ids",
+      "key_drivers",
+      "key_risks",
+      "as_of_date"
+    ],
+    "references": {
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id",
+      "claim_ids": "08_evidence/claims_register.csv:claim_id"
+    },
+    "ranges": {
+      "market_size": [
+        0,
+        5
+      ],
+      "growth_rate": [
+        0,
+        5
+      ],
+      "profitability": [
+        0,
+        5
+      ],
+      "customer_concentration": [
+        0,
+        5
+      ],
+      "switching_friction": [
+        0,
+        5
+      ],
+      "regulation": [
+        0,
+        5
+      ],
+      "competitive_intensity": [
+        0,
+        5
+      ],
+      "barriers_to_entry": [
+        0,
+        5
+      ],
+      "technology_disruption": [
+        0,
+        5
+      ],
+      "macro_sensitivity": [
+        0,
+        5
+      ],
+      "confidence_score": [
+        0,
+        100
+      ],
+      "market_attractiveness_score": [
+        0,
+        100
+      ],
+      "tam": [
+        0,
+        1000000000000000.0
+      ],
+      "sam": [
+        0,
+        1000000000000000.0
+      ],
+      "som": [
+        0,
+        1000000000000000.0
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "label": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ]
+    },
+    "integers": []
+  },
+  "05_opportunities/gap_register.csv": {
+    "fields": [
+      "sample_status",
+      "gap_id",
+      "category",
+      "question",
+      "segment_id",
+      "unmet_need",
+      "underserved_reach",
+      "alternative_failure",
+      "solution_feasibility",
+      "evidence_confidence",
+      "evidence_ids",
+      "claim_ids",
+      "confidence_score",
+      "gap_score",
+      "falsification",
+      "owner",
+      "as_of_date"
+    ],
+    "primary": "gap_id",
+    "required": [
+      "sample_status",
+      "gap_id",
+      "category",
+      "question",
+      "segment_id",
+      "unmet_need",
+      "underserved_reach",
+      "alternative_failure",
+      "solution_feasibility",
+      "evidence_ids",
+      "claim_ids",
+      "falsification",
+      "owner",
+      "as_of_date"
+    ],
+    "references": {
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id",
+      "claim_ids": "08_evidence/claims_register.csv:claim_id",
+      "segment_id": "04_customers/customer_segments_template.csv:segment_id"
+    },
+    "ranges": {
+      "unmet_need": [
+        0,
+        5
+      ],
+      "underserved_reach": [
+        0,
+        5
+      ],
+      "alternative_failure": [
+        0,
+        5
+      ],
+      "solution_feasibility": [
+        0,
+        5
+      ],
+      "evidence_confidence": [
+        0,
+        5
+      ],
+      "confidence_score": [
+        0,
+        100
+      ],
+      "gap_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "category": [
+        "underserved customer",
+        "missing feature",
+        "poor experience",
+        "pricing gap",
+        "geographic gap",
+        "trust gap",
+        "distribution gap",
+        "education gap",
+        "integration gap",
+        "speed/convenience gap",
+        "regulatory opportunity",
+        "business model gap"
+      ]
+    },
+    "integers": []
+  },
+  "06_risks/assumptions_register.csv": {
+    "fields": [
+      "sample_status",
+      "assumption_id",
+      "assumption",
+      "label",
+      "basis",
+      "evidence_ids",
+      "confidence_score",
+      "failure_impact",
+      "validation_method",
+      "owner",
+      "due_date",
+      "status",
+      "decision_ids",
+      "critical"
+    ],
+    "primary": "assumption_id",
+    "required": [
+      "sample_status",
+      "assumption_id",
+      "assumption",
+      "label",
+      "basis",
+      "evidence_ids",
+      "failure_impact",
+      "validation_method",
+      "owner",
+      "due_date",
+      "status",
+      "decision_ids",
+      "critical"
+    ],
+    "references": {
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id",
+      "decision_ids": "07_strategy/recommendations.csv:decision_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "label": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ],
+      "critical": [
+        "true",
+        "false"
+      ]
+    },
+    "integers": []
+  },
+  "06_risks/unknowns_register.csv": {
+    "fields": [
+      "sample_status",
+      "unknown_id",
+      "question",
+      "decision_affected",
+      "evidence_ids",
+      "confidence_score",
+      "resolution_method",
+      "owner",
+      "due_date",
+      "status",
+      "decision_ids",
+      "critical"
+    ],
+    "primary": "unknown_id",
+    "required": [
+      "sample_status",
+      "unknown_id",
+      "question",
+      "decision_affected",
+      "evidence_ids",
+      "resolution_method",
+      "owner",
+      "due_date",
+      "status",
+      "decision_ids",
+      "critical"
+    ],
+    "references": {
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id",
+      "decision_affected": "07_strategy/recommendations.csv:decision_id",
+      "decision_ids": "07_strategy/recommendations.csv:decision_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "critical": [
+        "true",
+        "false"
+      ]
+    },
+    "integers": []
+  },
+  "06_risks/dependency_register.csv": {
+    "fields": [
+      "sample_status",
+      "dependency_id",
+      "dependency",
+      "dependent_action",
+      "evidence_ids",
+      "confidence_score",
+      "owner",
+      "due_date",
+      "fallback",
+      "status",
+      "decision_ids",
+      "critical"
+    ],
+    "primary": "dependency_id",
+    "required": [
+      "sample_status",
+      "dependency_id",
+      "dependency",
+      "dependent_action",
+      "evidence_ids",
+      "owner",
+      "due_date",
+      "fallback",
+      "status",
+      "decision_ids",
+      "critical"
+    ],
+    "references": {
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id",
+      "dependent_action": "07_strategy/action_plan.csv:action_id",
+      "decision_ids": "07_strategy/recommendations.csv:decision_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "critical": [
+        "true",
+        "false"
+      ]
+    },
+    "integers": []
+  },
+  "08_evidence/evidence_gap_register.csv": {
+    "fields": [
+      "sample_status",
+      "gap_id",
+      "claim_id",
+      "missing_evidence",
+      "decision_impact",
+      "evidence_ids",
+      "confidence_score",
+      "research_method",
+      "owner",
+      "due_date",
+      "status",
+      "decision_ids",
+      "critical"
+    ],
+    "primary": "gap_id",
+    "required": [
+      "sample_status",
+      "gap_id",
+      "claim_id",
+      "missing_evidence",
+      "decision_impact",
+      "evidence_ids",
+      "research_method",
+      "owner",
+      "due_date",
+      "status",
+      "decision_ids",
+      "critical"
+    ],
+    "references": {
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id",
+      "claim_id": "08_evidence/claims_register.csv:claim_id",
+      "decision_ids": "07_strategy/recommendations.csv:decision_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "critical": [
+        "true",
+        "false"
+      ]
+    },
+    "integers": []
+  },
+  "08_evidence/research_gap_register.csv": {
+    "fields": [
+      "sample_status",
+      "gap_id",
+      "question",
+      "importance",
+      "current_evidence",
+      "confidence",
+      "recommended_research",
+      "priority",
+      "owner",
+      "status"
+    ],
+    "primary": "gap_id",
+    "required": [
+      "sample_status",
+      "gap_id",
+      "question",
+      "importance",
+      "current_evidence",
+      "recommended_research",
+      "priority",
+      "owner",
+      "status"
+    ],
+    "references": {
+      "current_evidence": "08_evidence/evidence_register.csv:evidence_id"
+    },
+    "ranges": {
+      "confidence": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "integers": []
+  },
+  "08_evidence/research_debt_register.csv": {
+    "fields": [
+      "sample_status",
+      "debt_id",
+      "claim_id",
+      "debt_type",
+      "evidence_ids",
+      "confidence_score",
+      "decision_exposure",
+      "resolution",
+      "owner",
+      "due_date",
+      "status",
+      "decision_ids",
+      "critical"
+    ],
+    "primary": "debt_id",
+    "required": [
+      "sample_status",
+      "debt_id",
+      "claim_id",
+      "debt_type",
+      "evidence_ids",
+      "decision_exposure",
+      "resolution",
+      "owner",
+      "due_date",
+      "status",
+      "decision_ids",
+      "critical"
+    ],
+    "references": {
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id",
+      "claim_id": "08_evidence/claims_register.csv:claim_id",
+      "decision_ids": "07_strategy/recommendations.csv:decision_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "critical": [
+        "true",
+        "false"
+      ]
+    },
+    "integers": []
+  },
+  "02_market/market_signals.csv": {
+    "fields": [
+      "sample_status",
+      "signal_id",
+      "signal_type",
+      "signal",
+      "label",
+      "observed_date",
+      "evidence_ids",
+      "confidence_score",
+      "promotion_criteria",
+      "response",
+      "owner",
+      "status"
+    ],
+    "primary": "signal_id",
+    "required": [
+      "sample_status",
+      "signal_id",
+      "signal_type",
+      "signal",
+      "label",
+      "observed_date",
+      "evidence_ids",
+      "promotion_criteria",
+      "response",
+      "owner",
+      "status"
+    ],
+    "references": {
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "label": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ],
+      "signal_type": [
+        "weak signal",
+        "emerging trend",
+        "confirmed trend",
+        "structural shift"
+      ]
+    },
+    "integers": []
+  },
+  "07_strategy/recommendations.csv": {
+    "fields": [
+      "sample_status",
+      "decision_id",
+      "decision",
+      "label",
+      "rationale",
+      "evidence_ids",
+      "claim_ids",
+      "opportunity_ids",
+      "risk_ids",
+      "confidence_score",
+      "expected_upside",
+      "major_risk",
+      "next_validation_step",
+      "budget_cap",
+      "currency",
+      "decision_required",
+      "owner",
+      "status",
+      "as_of_date"
+    ],
+    "primary": "decision_id",
+    "required": [
+      "sample_status",
+      "decision_id",
+      "decision",
+      "label",
+      "rationale",
+      "evidence_ids",
+      "claim_ids",
+      "opportunity_ids",
+      "risk_ids",
+      "expected_upside",
+      "major_risk",
+      "next_validation_step",
+      "budget_cap",
+      "currency",
+      "decision_required",
+      "owner",
+      "status",
+      "as_of_date"
+    ],
+    "references": {
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id",
+      "claim_ids": "08_evidence/claims_register.csv:claim_id",
+      "opportunity_ids": "05_opportunities/opportunity_database.csv:opportunity_id",
+      "risk_ids": "06_risks/risk_register.csv:risk_id"
+    },
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ],
+      "budget_cap": [
+        0,
+        1000000000000.0
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "decision": [
+        "ENTER",
+        "TEST",
+        "EXPAND",
+        "PARTNER",
+        "ACQUIRE",
+        "DIFFERENTIATE",
+        "REPOSITION",
+        "WAIT",
+        "MONITOR",
+        "AVOID"
+      ],
+      "label": [
+        "RECOMMENDATION"
+      ],
+      "status": [
+        "PROPOSED",
+        "APPROVED",
+        "REJECTED",
+        "RETIRED"
+      ]
+    },
+    "integers": []
+  },
+  "07_strategy/action_plan.csv": {
+    "fields": [
+      "sample_status",
+      "action_id",
+      "decision_id",
+      "phase",
+      "action",
+      "owner",
+      "objective",
+      "success_metric",
+      "dependency",
+      "priority",
+      "risk",
+      "status",
+      "evidence_ids",
+      "as_of_date"
+    ],
+    "primary": "action_id",
+    "required": [
+      "sample_status",
+      "action_id",
+      "decision_id",
+      "phase",
+      "action",
+      "owner",
+      "objective",
+      "success_metric",
+      "dependency",
+      "priority",
+      "risk",
+      "status",
+      "evidence_ids",
+      "as_of_date"
+    ],
+    "references": {
+      "decision_id": "07_strategy/recommendations.csv:decision_id",
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id"
+    },
+    "ranges": {},
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "phase": [
+        "Days 1\u201330",
+        "Days 31\u201360",
+        "Days 61\u201390"
+      ],
+      "priority": [
+        "High",
+        "Medium",
+        "Low"
+      ],
+      "status": [
+        "NOT STARTED",
+        "IN PROGRESS",
+        "BLOCKED",
+        "COMPLETE",
+        "CANCELLED"
+      ]
+    },
+    "integers": []
+  },
+  "07_strategy/decision_matrix.csv": {
+    "fields": [
+      "sample_status",
+      "option_id",
+      "decision",
+      "potential_upside",
+      "cost",
+      "time_to_value",
+      "execution_difficulty",
+      "risk",
+      "confidence",
+      "strategic_fit",
+      "score",
+      "evidence_ids",
+      "claim_ids",
+      "decision_gate",
+      "as_of_date"
+    ],
+    "primary": "option_id",
+    "required": [
+      "sample_status",
+      "option_id",
+      "decision",
+      "potential_upside",
+      "cost",
+      "time_to_value",
+      "execution_difficulty",
+      "risk",
+      "strategic_fit",
+      "evidence_ids",
+      "claim_ids",
+      "as_of_date"
+    ],
+    "references": {
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id",
+      "claim_ids": "08_evidence/claims_register.csv:claim_id"
+    },
+    "ranges": {
+      "potential_upside": [
+        0,
+        5
+      ],
+      "cost": [
+        0,
+        5
+      ],
+      "time_to_value": [
+        0,
+        5
+      ],
+      "execution_difficulty": [
+        0,
+        5
+      ],
+      "risk": [
+        0,
+        5
+      ],
+      "strategic_fit": [
+        0,
+        5
+      ],
+      "confidence": [
+        0,
+        100
+      ],
+      "score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "decision": [
+        "ENTER",
+        "TEST",
+        "EXPAND",
+        "PARTNER",
+        "ACQUIRE",
+        "DIFFERENTIATE",
+        "REPOSITION",
+        "WAIT",
+        "MONITOR",
+        "AVOID"
+      ]
+    },
+    "integers": []
+  },
+  "10_dashboards/executive_dashboard_template.csv": {
+    "fields": [
+      "sample_status",
+      "decision_id",
+      "decision",
+      "confidence_score",
+      "budget_cap",
+      "currency",
+      "status",
+      "as_of_date"
+    ],
+    "primary": "decision_id",
+    "required": [
+      "sample_status",
+      "decision_id",
+      "decision",
+      "confidence_score",
+      "budget_cap",
+      "currency",
+      "status",
+      "as_of_date"
+    ],
+    "references": {},
+    "ranges": {
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "integers": []
+  },
+  "10_dashboards/opportunity_dashboard_template.csv": {
+    "fields": [
+      "sample_status",
+      "opportunity_id",
+      "title",
+      "opportunity_score",
+      "confidence_score",
+      "action_category",
+      "decision_gate",
+      "owner",
+      "as_of_date",
+      "merit_score",
+      "input_basis_status"
+    ],
+    "primary": "opportunity_id",
+    "required": [
+      "sample_status",
+      "opportunity_id",
+      "title",
+      "opportunity_score",
+      "confidence_score",
+      "action_category",
+      "decision_gate",
+      "owner",
+      "as_of_date"
+    ],
+    "references": {},
+    "ranges": {
+      "opportunity_score": [
+        0,
+        100
+      ],
+      "confidence_score": [
+        0,
+        100
+      ],
+      "merit_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "integers": []
+  },
+  "10_dashboards/competitor_dashboard_template.csv": {
+    "fields": [
+      "sample_status",
+      "competitor_id",
+      "company",
+      "competitor_pressure_score",
+      "confidence_score",
+      "as_of_date"
+    ],
+    "primary": "competitor_id",
+    "required": [
+      "sample_status",
+      "competitor_id",
+      "company",
+      "competitor_pressure_score",
+      "confidence_score",
+      "as_of_date"
+    ],
+    "references": {},
+    "ranges": {
+      "competitor_pressure_score": [
+        0,
+        100
+      ],
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "integers": []
+  },
+  "10_dashboards/risk_dashboard_template.csv": {
+    "fields": [
+      "sample_status",
+      "risk_id",
+      "title",
+      "risk_score",
+      "classification",
+      "confidence_score",
+      "trigger",
+      "owner",
+      "as_of_date"
+    ],
+    "primary": "risk_id",
+    "required": [
+      "sample_status",
+      "risk_id",
+      "title",
+      "risk_score",
+      "classification",
+      "confidence_score",
+      "trigger",
+      "owner",
+      "as_of_date"
+    ],
+    "references": {},
+    "ranges": {
+      "risk_score": [
+        0,
+        100
+      ],
+      "confidence_score": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "integers": []
+  },
+  "09_scores/factor_assessments.csv": {
+    "fields": [
+      "sample_status",
+      "assessment_id",
+      "entity_file",
+      "entity_id",
+      "factor",
+      "input_value",
+      "basis_type",
+      "claim_ids",
+      "evidence_ids",
+      "assumption_ids",
+      "rationale",
+      "reviewed_by",
+      "review_date"
+    ],
+    "primary": "assessment_id",
+    "required": [
+      "sample_status",
+      "assessment_id",
+      "entity_file",
+      "entity_id",
+      "factor",
+      "input_value",
+      "basis_type",
+      "rationale",
+      "reviewed_by",
+      "review_date"
+    ],
+    "references": {
+      "claim_ids": "08_evidence/claims_register.csv:claim_id",
+      "evidence_ids": "08_evidence/evidence_register.csv:evidence_id",
+      "assumption_ids": "06_risks/assumptions_register.csv:assumption_id"
+    },
+    "ranges": {
+      "input_value": [
+        0,
+        5
+      ]
+    },
+    "enums": {
+      "sample_status": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ],
+      "basis_type": [
+        "OBSERVATION",
+        "ASSUMPTION",
+        "UNKNOWN"
+      ]
+    },
+    "integers": []
+  },
+  "09_scores/decision_scoring_model.csv": {
+    "fields": [
+      "factor",
+      "weight",
+      "input_min",
+      "input_max",
+      "direction",
+      "definition",
+      "anchor_0",
+      "anchor_mid",
+      "anchor_max"
+    ],
+    "primary": "factor",
+    "required": [
+      "factor",
+      "weight",
+      "input_min",
+      "input_max",
+      "direction",
+      "definition",
+      "anchor_0",
+      "anchor_mid",
+      "anchor_max"
+    ],
+    "references": {},
+    "ranges": {
+      "weight": [
+        0,
+        100
+      ],
+      "input_min": [
+        0,
+        0
+      ],
+      "input_max": [
+        0,
+        100
+      ]
+    },
+    "enums": {
+      "direction": [
+        "positive",
+        "inverse"
+      ]
+    },
+    "integers": []
+  }
+}

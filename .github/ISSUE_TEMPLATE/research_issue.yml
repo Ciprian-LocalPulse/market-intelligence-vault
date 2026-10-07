@@ -1,0 +1,54 @@
+name: "Research / methodology issue"
+description: "Challenge a model, assumption or evidence interpretation"
+body:
+  - type: markdown
+    attributes:
+      value: "Use fictional examples. Do not include secrets, client records or private vulnerability details."
+  - type: textarea
+    id: field-1
+    attributes:
+      label: "Version"
+    validations:
+      required: true
+  - type: textarea
+    id: field-2
+    attributes:
+      label: "Environment"
+    validations:
+      required: true
+  - type: textarea
+    id: field-3
+    attributes:
+      label: "Reproduction steps / current workflow"
+    validations:
+      required: true
+  - type: textarea
+    id: field-4
+    attributes:
+      label: "Expected behavior"
+    validations:
+      required: true
+  - type: textarea
+    id: field-5
+    attributes:
+      label: "Actual behavior"
+    validations:
+      required: true
+  - type: textarea
+    id: field-6
+    attributes:
+      label: "Affected model and formula"
+    validations:
+      required: true
+  - type: textarea
+    id: field-7
+    attributes:
+      label: "Assumption and evidence"
+    validations:
+      required: true
+  - type: textarea
+    id: field-8
+    attributes:
+      label: "Proposed change and tradeoffs"
+    validations:
+      required: true

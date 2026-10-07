@@ -1,0 +1,3009 @@
+{
+  "meta": {
+    "contract_version": "1.1.0",
+    "repository_version": "1.1.0",
+    "model_version": "1.0.1",
+    "engagement_name": "Northstar Analytics",
+    "mode": "FICTIONAL DEMONSTRATION",
+    "demo_label": "FICTIONAL DEMONSTRATION DATA",
+    "as_of_date": "2026-10-06",
+    "validated_at": "2026-10-07T02:50:04.177418+00:00",
+    "snapshot_id": "a314f18aa1e7f4d221979ba0c29bed1c1b816e66b88870de5e5b80038aff3a4d",
+    "input_digest": "1651cbe5a157597b3319269aaf0306a0a45304574bd7c6898ea41a06441321c1",
+    "approval": {
+      "status": "ACTION NOT APPROVED",
+      "reasons": [
+        "Fictional or unresearched records cannot authorize a live action. A reviewed live engagement and named sign-off are required."
+      ],
+      "review_date": "2026-10-06",
+      "checked_at": "2026-10-07T02:50:03.988263+00:00",
+      "scope": "All recommendations must satisfy unchanged 1.0.1 live-delivery gates. This is a snapshot, not signer authentication."
+    },
+    "score_reconciliation": "Populated derived values reconcile; unavailable optional values remain null."
+  },
+  "data": {
+    "decisions": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "decision_id": "DEC-001",
+        "decision": "TEST",
+        "label": "RECOMMENDATION",
+        "rationale": "Recurring burden and possible setup advantage justify a capped experiment",
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "opportunity_ids": [
+          "OPP-001"
+        ],
+        "risk_ids": [
+          "RSK-001",
+          "RSK-002",
+          "RSK-003"
+        ],
+        "confidence_score": 59.0,
+        "expected_upside": "Measured time savings and three paid pilot commitments; no forecast revenue",
+        "major_risk": "Integration cost and unproven willingness to pay",
+        "next_validation_step": "Observe ten qualified workflows and benchmark connector effort",
+        "budget_cap": 18000.0,
+        "currency": "USD",
+        "decision_required": "Approve or reject a 30-day research stage within the 90-day envelope",
+        "owner": "Strategy lead",
+        "as_of_date": "2026-10-06",
+        "confidence_category": "Low",
+        "recorded_status": "PROPOSED",
+        "approval": {
+          "status": "ACTION NOT APPROVED",
+          "reasons": [
+            "Fictional or unresearched records cannot authorize a live action. A reviewed live engagement and named sign-off are required."
+          ],
+          "review_date": "2026-10-06",
+          "checked_at": "2026-10-07T02:50:03.988263+00:00",
+          "scope": "All recommendations must satisfy unchanged 1.0.1 live-delivery gates. This is a snapshot, not signer authentication."
+        },
+        "action_class": "REVERSIBLE VALIDATION / OBSERVATION"
+      }
+    ],
+    "options": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "option_id": "OPT-TEST",
+        "decision": "TEST",
+        "potential_upside": 3.0,
+        "cost": 2.0,
+        "time_to_value": 2.0,
+        "execution_difficulty": 2.0,
+        "risk": 3.0,
+        "confidence": 59.0,
+        "strategic_fit": 5.0,
+        "score": 46.4,
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "decision_gate": "RESEARCH REQUIRED",
+        "as_of_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "option_id": "OPT-WAIT",
+        "decision": "WAIT",
+        "potential_upside": 1.0,
+        "cost": 0.0,
+        "time_to_value": 4.0,
+        "execution_difficulty": 0.0,
+        "risk": 2.0,
+        "confidence": 59.0,
+        "strategic_fit": 3.0,
+        "score": 38.78,
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "decision_gate": "RESEARCH REQUIRED",
+        "as_of_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "option_id": "OPT-ENTER",
+        "decision": "ENTER",
+        "potential_upside": 4.0,
+        "cost": 5.0,
+        "time_to_value": 4.0,
+        "execution_difficulty": 5.0,
+        "risk": 5.0,
+        "confidence": 59.0,
+        "strategic_fit": 3.0,
+        "score": 25.62,
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "decision_gate": "RESEARCH REQUIRED",
+        "as_of_date": "2026-10-06"
+      }
+    ],
+    "unknowns": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "unknown_id": "UNK-001",
+        "question": "What is realized willingness to pay?",
+        "decision_affected": "DEC-001",
+        "evidence_ids": [
+          "EV-004"
+        ],
+        "confidence_score": 59.0,
+        "resolution_method": "Paid pilot commitment",
+        "owner": "Commercial lead",
+        "due_date": "2026-11-05",
+        "status": "OPEN",
+        "decision_ids": [
+          "DEC-001"
+        ],
+        "critical": true,
+        "confidence_category": "Low"
+      }
+    ],
+    "dependencies": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "dependency_id": "DEP-001",
+        "dependency": "Second connector and security review",
+        "dependent_action": "ACT-003",
+        "evidence_ids": [
+          "EV-004",
+          "EV-005"
+        ],
+        "confidence_score": 59.0,
+        "owner": "Delivery lead",
+        "due_date": "2026-11-05",
+        "fallback": "Manual import with scoped access",
+        "status": "OPEN",
+        "decision_ids": [
+          "DEC-001"
+        ],
+        "critical": true,
+        "confidence_category": "Low"
+      }
+    ],
+    "coverage": {
+      "claims": 5,
+      "with_support": 5,
+      "open_gaps": 3,
+      "critical_unknowns": 1,
+      "fresh_sources": 6,
+      "source_count": 6,
+      "stale_or_unknown_sources": 0
+    },
+    "models": {
+      "confidence_model": [
+        {
+          "factor": "reliability_score",
+          "weight": "25",
+          "input_min": "0",
+          "input_max": "25",
+          "direction": "positive",
+          "definition": "Primary-source verification and claim-specific authority",
+          "anchor_0": "No source",
+          "anchor_mid": "Documented method with material limits",
+          "anchor_max": "Independently auditable scoped measurement"
+        },
+        {
+          "factor": "freshness_score",
+          "weight": "20",
+          "input_min": "0",
+          "input_max": "20",
+          "direction": "positive",
+          "definition": "Age relative to configured topic windows",
+          "anchor_0": "Stale or unknown",
+          "anchor_mid": "Recent within configured topic window",
+          "anchor_max": "Current within configured topic window"
+        },
+        {
+          "factor": "directness_score",
+          "weight": "20",
+          "input_min": "0",
+          "input_max": "20",
+          "direction": "positive",
+          "definition": "Measurement matches the claim without proxy substitution",
+          "anchor_0": "Speculation",
+          "anchor_mid": "Relevant proxy or partly matched observation",
+          "anchor_max": "Direct observation matches the scoped claim"
+        },
+        {
+          "factor": "corroboration_score",
+          "weight": "20",
+          "input_min": "0",
+          "input_max": "20",
+          "direction": "positive",
+          "definition": "Independent origin groups; syndicated copies count once",
+          "anchor_0": "One originating support group",
+          "anchor_mid": "Two independent supporting origins",
+          "anchor_max": "Four or more independent supporting origins"
+        },
+        {
+          "factor": "relevance_score",
+          "weight": "15",
+          "input_min": "0",
+          "input_max": "15",
+          "direction": "positive",
+          "definition": "Scope, geography, population and period match",
+          "anchor_0": "Outside scope",
+          "anchor_mid": "Partial population/period match",
+          "anchor_max": "Full geography/population/period match"
+        }
+      ],
+      "opportunity_scoring_model": [
+        {
+          "factor": "market_demand",
+          "weight": "15",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Observed qualified demand",
+          "anchor_0": "No qualified demand",
+          "anchor_mid": "Repeated qualified problem observations",
+          "anchor_max": "Paid repeated demand across relevant workflows"
+        },
+        {
+          "factor": "growth_potential",
+          "weight": "10",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Sustainable category expansion",
+          "anchor_0": "Contraction with no offsetting driver",
+          "anchor_mid": "Stable demand with a supported expansion mechanism",
+          "anchor_max": "Sustained comparable growth with durable drivers"
+        },
+        {
+          "factor": "pain_intensity",
+          "weight": "15",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Frequency and cost of the problem",
+          "anchor_0": "No measurable burden",
+          "anchor_mid": "Recurring burden tolerated with workarounds",
+          "anchor_max": "Frequent severe cost with action to resolve"
+        },
+        {
+          "factor": "competitive_saturation",
+          "weight": "10",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "inverse",
+          "definition": "Crowding of viable alternatives",
+          "anchor_0": "No viable alternatives after substitute search",
+          "anchor_mid": "Several capable alternatives",
+          "anchor_max": "Crowded matched offers with aggressive response"
+        },
+        {
+          "factor": "differentiation_potential",
+          "weight": "10",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Defensible customer-valued distinction",
+          "anchor_0": "No valued distinction",
+          "anchor_mid": "Measured but easily copied outcome improvement",
+          "anchor_max": "Valued measured improvement with defensible capability"
+        },
+        {
+          "factor": "monetization_potential",
+          "weight": "10",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Tested willingness to pay and contribution margin",
+          "anchor_0": "No willingness to pay or negative contribution",
+          "anchor_mid": "Priced interest with unproven repeat economics",
+          "anchor_max": "Repeated paid renewal and sustainable contribution"
+        },
+        {
+          "factor": "implementation_difficulty",
+          "weight": "8",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "inverse",
+          "definition": "Technical and operational delivery burden",
+          "anchor_0": "Existing proven delivery with minimal change",
+          "anchor_mid": "Several new capabilities or integrations",
+          "anchor_max": "Unproven critical technology or extensive operating build"
+        },
+        {
+          "factor": "time_to_market",
+          "weight": "7",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "inverse",
+          "definition": "Elapsed time before value can be delivered",
+          "anchor_0": "Value deliverable within one month",
+          "anchor_mid": "Value deliverable within one to two quarters",
+          "anchor_max": "Value requires more than a year"
+        },
+        {
+          "factor": "evidence_confidence",
+          "weight": "5",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Weakest material supporting claim confidence / 20",
+          "anchor_0": "Material claim confidence 0",
+          "anchor_mid": "Material claim confidence 60",
+          "anchor_max": "Material claim confidence 100"
+        },
+        {
+          "factor": "strategic_fit",
+          "weight": "10",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Capabilities and stated strategic constraints",
+          "anchor_0": "Conflicts with stated mandate or capability",
+          "anchor_mid": "Adjacent capability with manageable gaps",
+          "anchor_max": "Fits mandate and existing verified capacity"
+        }
+      ],
+      "risk_scoring_model": [
+        {
+          "factor": "likelihood",
+          "weight": "30",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Likelihood within stated decision horizon",
+          "anchor_0": "Implausible within stated horizon",
+          "anchor_mid": "Plausible in stated horizon",
+          "anchor_max": "Already occurring"
+        },
+        {
+          "factor": "impact",
+          "weight": "35",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Severity against capital and operating objectives",
+          "anchor_0": "Immaterial consequence",
+          "anchor_mid": "Material rework or objective delay",
+          "anchor_max": "Viability or unacceptable legal/safety consequence"
+        },
+        {
+          "factor": "detectability",
+          "weight": "15",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Difficulty of detecting before material harm",
+          "anchor_0": "Reliably detected before harm",
+          "anchor_mid": "Intermittent warning with limits",
+          "anchor_max": "Usually invisible before harm"
+        },
+        {
+          "factor": "velocity",
+          "weight": "10",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Speed from trigger to harm",
+          "anchor_0": "Harm develops over more than a year",
+          "anchor_mid": "Weeks from trigger to harm",
+          "anchor_max": "Hours from trigger to harm"
+        },
+        {
+          "factor": "mitigation_readiness",
+          "weight": "10",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "inverse",
+          "definition": "Tested response capability",
+          "anchor_0": "No response exists",
+          "anchor_mid": "Owned partly tested response",
+          "anchor_max": "Tested available response with verified effectiveness"
+        }
+      ],
+      "market_attractiveness_model": [
+        {
+          "factor": "market_size",
+          "weight": "15",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Accessible annual spend, not broad category TAM",
+          "anchor_0": "Below documented viable reachable spend threshold",
+          "anchor_mid": "Enough reachable spend for a narrow viable entry",
+          "anchor_max": "Reachable spend supports multiple scale paths"
+        },
+        {
+          "factor": "growth_rate",
+          "weight": "12",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Comparable scope growth",
+          "anchor_0": "Comparable sustained contraction",
+          "anchor_mid": "Comparable stable-to-moderate expansion",
+          "anchor_max": "Strong sustained growth above defined benchmark"
+        },
+        {
+          "factor": "profitability",
+          "weight": "15",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Sustainable contribution economics",
+          "anchor_0": "Negative sustainable contribution",
+          "anchor_mid": "Positive contribution with fragile assumptions",
+          "anchor_max": "Observed durable contribution through sensitivity cases"
+        },
+        {
+          "factor": "customer_concentration",
+          "weight": "8",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "inverse",
+          "definition": "Dependence on few buyers",
+          "anchor_0": "Dispersed reachable buyers",
+          "anchor_mid": "A few channels or buyers materially influence economics",
+          "anchor_max": "Single buyer/channel dominates achievable spend"
+        },
+        {
+          "factor": "switching_friction",
+          "weight": "8",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "inverse",
+          "definition": "Entrant difficulty displacing existing behavior",
+          "anchor_0": "Low migration effort observed",
+          "anchor_mid": "Material but manageable process change",
+          "anchor_max": "Locked contracts/data/workflow prevent displacement"
+        },
+        {
+          "factor": "regulation",
+          "weight": "8",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "inverse",
+          "definition": "Compliance burden and uncertainty",
+          "anchor_0": "Verified minimal entrant burden",
+          "anchor_mid": "Known material manageable compliance work",
+          "anchor_max": "Prohibitive or unresolved critical requirement"
+        },
+        {
+          "factor": "competitive_intensity",
+          "weight": "10",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "inverse",
+          "definition": "Strength of substitute and incumbent responses",
+          "anchor_0": "Weak alternatives with limited responses",
+          "anchor_mid": "Capable incumbents and substitutes",
+          "anchor_max": "Strong funded rivals with aggressive matched responses"
+        },
+        {
+          "factor": "barriers_to_entry",
+          "weight": "8",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "inverse",
+          "definition": "Entrant capital and capability burden",
+          "anchor_0": "Entrant requirements already met",
+          "anchor_mid": "New capacity or channel investment needed",
+          "anchor_max": "Capital/access/capability burden exceeds resources"
+        },
+        {
+          "factor": "technology_disruption",
+          "weight": "8",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "inverse",
+          "definition": "Exposure to substitution",
+          "anchor_0": "Low observed substitution exposure",
+          "anchor_mid": "Credible substitution pathway emerging",
+          "anchor_max": "Current solution made obsolete by verified alternatives"
+        },
+        {
+          "factor": "macro_sensitivity",
+          "weight": "8",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "inverse",
+          "definition": "Exposure to downturn or cost shocks",
+          "anchor_0": "Demand resilient in observed stress",
+          "anchor_mid": "Moderate dependence on economic conditions",
+          "anchor_max": "Demand or cost highly exposed to downturn/shock"
+        }
+      ],
+      "competitor_pressure_model": [
+        {
+          "factor": "brand_strength",
+          "weight": "12",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Recognition among relevant buyers",
+          "anchor_0": "Little relevant recognition",
+          "anchor_mid": "Recognized in relevant workflows",
+          "anchor_max": "Dominant relevant recognition with observed preference"
+        },
+        {
+          "factor": "pricing_pressure",
+          "weight": "14",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Ability to undercut sustainable economics",
+          "anchor_0": "Cannot materially undercut sustainable price",
+          "anchor_mid": "Can discount or bundle selected tasks",
+          "anchor_max": "Can sustain aggressive pricing across the target task"
+        },
+        {
+          "factor": "product_maturity",
+          "weight": "14",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Coverage and reliability",
+          "anchor_0": "Prototype or unproven reliability",
+          "anchor_mid": "Stable core task coverage",
+          "anchor_max": "Proven broad coverage and operating reliability"
+        },
+        {
+          "factor": "distribution",
+          "weight": "16",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Access to relevant acquisition channels",
+          "anchor_0": "Little access to relevant demand",
+          "anchor_mid": "Several effective channels",
+          "anchor_max": "Strong recurring access with channel control"
+        },
+        {
+          "factor": "switching_costs",
+          "weight": "12",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Incumbent retention friction",
+          "anchor_0": "Easy incumbent replacement",
+          "anchor_mid": "Material migration or retraining",
+          "anchor_max": "Contract/data/workflow lock-in supports retention"
+        },
+        {
+          "factor": "capital_strength",
+          "weight": "10",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Ability to fund sustained response",
+          "anchor_0": "Constrained sustained response capacity",
+          "anchor_mid": "Can fund selective responses",
+          "anchor_max": "Verified capacity to sustain multi-year response"
+        },
+        {
+          "factor": "innovation_velocity",
+          "weight": "10",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Verified release cadence",
+          "anchor_0": "No meaningful verified releases",
+          "anchor_mid": "Regular useful releases",
+          "anchor_max": "Rapid sustained validated task improvement"
+        },
+        {
+          "factor": "customer_loyalty",
+          "weight": "12",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Retention and repeat behavior",
+          "anchor_0": "Low observed repeat behavior",
+          "anchor_mid": "Mixed retention in comparable cohorts",
+          "anchor_max": "Strong repeated renewals with documented reasons"
+        }
+      ],
+      "gap_scoring_model": [
+        {
+          "factor": "unmet_need",
+          "weight": "30",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Evidence of meaningful unsatisfied need",
+          "anchor_0": "No observed unmet outcome",
+          "anchor_mid": "Recurring unsatisfied outcome",
+          "anchor_max": "Severe repeated unmet outcome with economic consequence"
+        },
+        {
+          "factor": "underserved_reach",
+          "weight": "20",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Reachable customers affected",
+          "anchor_0": "No reachable affected workflows",
+          "anchor_mid": "Defined reachable affected subset",
+          "anchor_max": "Large verified reachable affected pool"
+        },
+        {
+          "factor": "alternative_failure",
+          "weight": "20",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Observed inadequacy of alternatives",
+          "anchor_0": "Equivalent alternatives work well",
+          "anchor_mid": "Alternatives fail some material tasks",
+          "anchor_max": "Matched alternatives repeatedly fail the core job"
+        },
+        {
+          "factor": "solution_feasibility",
+          "weight": "15",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Ability to close the gap",
+          "anchor_0": "No feasible capability/path",
+          "anchor_mid": "Plausible prototype with material gaps",
+          "anchor_max": "Tested solution within delivery and economics constraints"
+        },
+        {
+          "factor": "evidence_confidence",
+          "weight": "15",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Weakest material supporting confidence / 20",
+          "anchor_0": "Material claim confidence 0",
+          "anchor_mid": "Material claim confidence 60",
+          "anchor_max": "Material claim confidence 100"
+        }
+      ],
+      "decision_scoring_model": [
+        {
+          "factor": "potential_upside",
+          "weight": "25",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Scoped attainable upside",
+          "anchor_0": "Least favorable condition",
+          "anchor_mid": "Mixed condition with basis",
+          "anchor_max": "Most favorable condition"
+        },
+        {
+          "factor": "cost",
+          "weight": "15",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "inverse",
+          "definition": "Resource burden",
+          "anchor_0": "Least favorable condition",
+          "anchor_mid": "Mixed condition with basis",
+          "anchor_max": "Most favorable condition"
+        },
+        {
+          "factor": "time_to_value",
+          "weight": "10",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "inverse",
+          "definition": "Delay before useful outcome",
+          "anchor_0": "Least favorable condition",
+          "anchor_mid": "Mixed condition with basis",
+          "anchor_max": "Most favorable condition"
+        },
+        {
+          "factor": "execution_difficulty",
+          "weight": "10",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "inverse",
+          "definition": "Delivery burden",
+          "anchor_0": "Least favorable condition",
+          "anchor_mid": "Mixed condition with basis",
+          "anchor_max": "Most favorable condition"
+        },
+        {
+          "factor": "risk",
+          "weight": "15",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "inverse",
+          "definition": "Exposure burden",
+          "anchor_0": "Least favorable condition",
+          "anchor_mid": "Mixed condition with basis",
+          "anchor_max": "Most favorable condition"
+        },
+        {
+          "factor": "strategic_fit",
+          "weight": "25",
+          "input_min": "0",
+          "input_max": "5",
+          "direction": "positive",
+          "definition": "Fit with stated capacity and mandate",
+          "anchor_0": "Least favorable condition",
+          "anchor_mid": "Mixed condition with basis",
+          "anchor_max": "Most favorable condition"
+        }
+      ]
+    },
+    "factors": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-001",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-001",
+        "factor": "market_demand",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-002",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-001",
+        "factor": "growth_potential",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-003",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-001",
+        "factor": "pain_intensity",
+        "input_value": 5.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-004",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-001",
+        "factor": "competitive_saturation",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-005",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-001",
+        "factor": "differentiation_potential",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-006",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-001",
+        "factor": "monetization_potential",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-007",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-001",
+        "factor": "implementation_difficulty",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-008",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-001",
+        "factor": "time_to_market",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-009",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-001",
+        "factor": "strategic_fit",
+        "input_value": 5.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-010",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-002",
+        "factor": "market_demand",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-011",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-002",
+        "factor": "growth_potential",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-012",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-002",
+        "factor": "pain_intensity",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-013",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-002",
+        "factor": "competitive_saturation",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-014",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-002",
+        "factor": "differentiation_potential",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-015",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-002",
+        "factor": "monetization_potential",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-016",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-002",
+        "factor": "implementation_difficulty",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-017",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-002",
+        "factor": "time_to_market",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-018",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-002",
+        "factor": "strategic_fit",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-019",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-003",
+        "factor": "market_demand",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-004"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-004"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-020",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-003",
+        "factor": "growth_potential",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-004"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-004"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-021",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-003",
+        "factor": "pain_intensity",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-004"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-004"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-022",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-003",
+        "factor": "competitive_saturation",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-004"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-004"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-023",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-003",
+        "factor": "differentiation_potential",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-004"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-004"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-024",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-003",
+        "factor": "monetization_potential",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-004"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-004"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-025",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-003",
+        "factor": "implementation_difficulty",
+        "input_value": 1.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-004"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-004"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-026",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-003",
+        "factor": "time_to_market",
+        "input_value": 1.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-004"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-004"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-027",
+        "entity_file": "05_opportunities/opportunity_database.csv",
+        "entity_id": "OPP-003",
+        "factor": "strategic_fit",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002",
+          "CLM-004"
+        ],
+        "evidence_ids": [
+          "EV-002",
+          "EV-004"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-028",
+        "entity_file": "02_market/market_assessment.csv",
+        "entity_id": "MKT-001",
+        "factor": "market_size",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-003"
+        ],
+        "evidence_ids": [
+          "EV-003"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-029",
+        "entity_file": "02_market/market_assessment.csv",
+        "entity_id": "MKT-001",
+        "factor": "growth_rate",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-003"
+        ],
+        "evidence_ids": [
+          "EV-003"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-030",
+        "entity_file": "02_market/market_assessment.csv",
+        "entity_id": "MKT-001",
+        "factor": "profitability",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-003"
+        ],
+        "evidence_ids": [
+          "EV-003"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-031",
+        "entity_file": "02_market/market_assessment.csv",
+        "entity_id": "MKT-001",
+        "factor": "customer_concentration",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-003"
+        ],
+        "evidence_ids": [
+          "EV-003"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-032",
+        "entity_file": "02_market/market_assessment.csv",
+        "entity_id": "MKT-001",
+        "factor": "switching_friction",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-003"
+        ],
+        "evidence_ids": [
+          "EV-003"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-033",
+        "entity_file": "02_market/market_assessment.csv",
+        "entity_id": "MKT-001",
+        "factor": "regulation",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-003"
+        ],
+        "evidence_ids": [
+          "EV-003"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-034",
+        "entity_file": "02_market/market_assessment.csv",
+        "entity_id": "MKT-001",
+        "factor": "competitive_intensity",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-003"
+        ],
+        "evidence_ids": [
+          "EV-003"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-035",
+        "entity_file": "02_market/market_assessment.csv",
+        "entity_id": "MKT-001",
+        "factor": "barriers_to_entry",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-003"
+        ],
+        "evidence_ids": [
+          "EV-003"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-036",
+        "entity_file": "02_market/market_assessment.csv",
+        "entity_id": "MKT-001",
+        "factor": "technology_disruption",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-003"
+        ],
+        "evidence_ids": [
+          "EV-003"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-037",
+        "entity_file": "02_market/market_assessment.csv",
+        "entity_id": "MKT-001",
+        "factor": "macro_sensitivity",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-003"
+        ],
+        "evidence_ids": [
+          "EV-003"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-038",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-001",
+        "factor": "brand_strength",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-039",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-001",
+        "factor": "pricing_pressure",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-040",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-001",
+        "factor": "product_maturity",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-041",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-001",
+        "factor": "distribution",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-042",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-001",
+        "factor": "switching_costs",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-043",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-001",
+        "factor": "capital_strength",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-044",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-001",
+        "factor": "innovation_velocity",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-045",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-001",
+        "factor": "customer_loyalty",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-046",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-002",
+        "factor": "brand_strength",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-047",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-002",
+        "factor": "pricing_pressure",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-048",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-002",
+        "factor": "product_maturity",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-049",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-002",
+        "factor": "distribution",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-050",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-002",
+        "factor": "switching_costs",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-051",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-002",
+        "factor": "capital_strength",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-052",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-002",
+        "factor": "innovation_velocity",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-053",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-002",
+        "factor": "customer_loyalty",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-054",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-003",
+        "factor": "brand_strength",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-055",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-003",
+        "factor": "pricing_pressure",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-056",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-003",
+        "factor": "product_maturity",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-057",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-003",
+        "factor": "distribution",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-058",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-003",
+        "factor": "switching_costs",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-059",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-003",
+        "factor": "capital_strength",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-060",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-003",
+        "factor": "innovation_velocity",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-061",
+        "entity_file": "03_competitors/competitor_database.csv",
+        "entity_id": "CMP-003",
+        "factor": "customer_loyalty",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-062",
+        "entity_file": "06_risks/risk_register.csv",
+        "entity_id": "RSK-001",
+        "factor": "likelihood",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-063",
+        "entity_file": "06_risks/risk_register.csv",
+        "entity_id": "RSK-001",
+        "factor": "impact",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-064",
+        "entity_file": "06_risks/risk_register.csv",
+        "entity_id": "RSK-001",
+        "factor": "detectability",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-065",
+        "entity_file": "06_risks/risk_register.csv",
+        "entity_id": "RSK-001",
+        "factor": "velocity",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-066",
+        "entity_file": "06_risks/risk_register.csv",
+        "entity_id": "RSK-001",
+        "factor": "mitigation_readiness",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-067",
+        "entity_file": "06_risks/risk_register.csv",
+        "entity_id": "RSK-002",
+        "factor": "likelihood",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-004"
+        ],
+        "evidence_ids": [
+          "EV-004"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-068",
+        "entity_file": "06_risks/risk_register.csv",
+        "entity_id": "RSK-002",
+        "factor": "impact",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-004"
+        ],
+        "evidence_ids": [
+          "EV-004"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-069",
+        "entity_file": "06_risks/risk_register.csv",
+        "entity_id": "RSK-002",
+        "factor": "detectability",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-004"
+        ],
+        "evidence_ids": [
+          "EV-004"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-070",
+        "entity_file": "06_risks/risk_register.csv",
+        "entity_id": "RSK-002",
+        "factor": "velocity",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-004"
+        ],
+        "evidence_ids": [
+          "EV-004"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-071",
+        "entity_file": "06_risks/risk_register.csv",
+        "entity_id": "RSK-002",
+        "factor": "mitigation_readiness",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-004"
+        ],
+        "evidence_ids": [
+          "EV-004"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-072",
+        "entity_file": "06_risks/risk_register.csv",
+        "entity_id": "RSK-003",
+        "factor": "likelihood",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-006"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-073",
+        "entity_file": "06_risks/risk_register.csv",
+        "entity_id": "RSK-003",
+        "factor": "impact",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-006"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-074",
+        "entity_file": "06_risks/risk_register.csv",
+        "entity_id": "RSK-003",
+        "factor": "detectability",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-006"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-075",
+        "entity_file": "06_risks/risk_register.csv",
+        "entity_id": "RSK-003",
+        "factor": "velocity",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-006"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-076",
+        "entity_file": "06_risks/risk_register.csv",
+        "entity_id": "RSK-003",
+        "factor": "mitigation_readiness",
+        "input_value": 1.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-006"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-077",
+        "entity_file": "05_opportunities/gap_register.csv",
+        "entity_id": "GAP-001",
+        "factor": "unmet_need",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-078",
+        "entity_file": "05_opportunities/gap_register.csv",
+        "entity_id": "GAP-001",
+        "factor": "underserved_reach",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-079",
+        "entity_file": "05_opportunities/gap_register.csv",
+        "entity_id": "GAP-001",
+        "factor": "alternative_failure",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-080",
+        "entity_file": "05_opportunities/gap_register.csv",
+        "entity_id": "GAP-001",
+        "factor": "solution_feasibility",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-081",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-TEST",
+        "factor": "potential_upside",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-082",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-TEST",
+        "factor": "cost",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-083",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-TEST",
+        "factor": "time_to_value",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-084",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-TEST",
+        "factor": "execution_difficulty",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-085",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-TEST",
+        "factor": "risk",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-086",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-TEST",
+        "factor": "strategic_fit",
+        "input_value": 5.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-087",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-WAIT",
+        "factor": "potential_upside",
+        "input_value": 1.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-088",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-WAIT",
+        "factor": "cost",
+        "input_value": 0.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-089",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-WAIT",
+        "factor": "time_to_value",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-090",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-WAIT",
+        "factor": "execution_difficulty",
+        "input_value": 0.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-091",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-WAIT",
+        "factor": "risk",
+        "input_value": 2.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-092",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-WAIT",
+        "factor": "strategic_fit",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-093",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-ENTER",
+        "factor": "potential_upside",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-094",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-ENTER",
+        "factor": "cost",
+        "input_value": 5.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-095",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-ENTER",
+        "factor": "time_to_value",
+        "input_value": 4.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-096",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-ENTER",
+        "factor": "execution_difficulty",
+        "input_value": 5.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-097",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-ENTER",
+        "factor": "risk",
+        "input_value": 5.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assessment_id": "FCT-098",
+        "entity_file": "07_strategy/decision_matrix.csv",
+        "entity_id": "OPT-ENTER",
+        "factor": "strategic_fit",
+        "input_value": 3.0,
+        "basis_type": "ASSUMPTION",
+        "claim_ids": [
+          "CLM-001",
+          "CLM-002",
+          "CLM-004",
+          "CLM-005"
+        ],
+        "evidence_ids": [
+          "EV-001",
+          "EV-002",
+          "EV-004",
+          "EV-005"
+        ],
+        "assumption_ids": [
+          "ASM-SYN-001"
+        ],
+        "rationale": "Synthetic ordinal rating invented for the demonstration; no observed real-market factor value.",
+        "reviewed_by": "Synthetic analyst role",
+        "review_date": "2026-10-06"
+      }
+    ]
+  }
+}

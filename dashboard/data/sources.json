@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "contract_version": "1.1.0",
+    "repository_version": "1.1.0",
+    "model_version": "1.0.1",
+    "engagement_name": "Northstar Analytics",
+    "mode": "FICTIONAL DEMONSTRATION",
+    "demo_label": "FICTIONAL DEMONSTRATION DATA",
+    "as_of_date": "2026-10-06",
+    "validated_at": "2026-10-07T02:50:04.177418+00:00",
+    "snapshot_id": "a314f18aa1e7f4d221979ba0c29bed1c1b816e66b88870de5e5b80038aff3a4d",
+    "input_digest": "1651cbe5a157597b3319269aaf0306a0a45304574bd7c6898ea41a06441321c1",
+    "approval": {
+      "status": "ACTION NOT APPROVED",
+      "reasons": [
+        "Fictional or unresearched records cannot authorize a live action. A reviewed live engagement and named sign-off are required."
+      ],
+      "review_date": "2026-10-06",
+      "checked_at": "2026-10-07T02:50:03.988263+00:00",
+      "scope": "All recommendations must satisfy unchanged 1.0.1 live-delivery gates. This is a snapshot, not signer authentication."
+    },
+    "score_reconciliation": "Populated derived values reconcile; unavailable optional values remain null."
+  },
+  "data": {
+    "records": [
+      {
+        "source_id": "SRC-001",
+        "source_title": "Synthetic interview workbook",
+        "source_url": "synthetic://northstar/src-001",
+        "publisher": "Synthetic Research Studio",
+        "publication_date": "2026-09-20",
+        "access_date": "2026-10-06",
+        "source_type": "Interview simulation",
+        "topic": "customer",
+        "tier": 3.0,
+        "reliability_score": 20.0,
+        "origin_group": "ORG-001",
+        "locator": "Synthetic artifact, paragraph 1",
+        "usage_rights": "Synthetic demonstration content",
+        "freshness_status": "Current",
+        "archive_status": "INTEGRITY CHECK PASSED",
+        "authentication_status": "Publisher identity not authenticated"
+      },
+      {
+        "source_id": "SRC-002",
+        "source_title": "Synthetic product audit",
+        "source_url": "synthetic://northstar/src-002",
+        "publisher": "Synthetic Research Studio",
+        "publication_date": "2026-09-20",
+        "access_date": "2026-10-06",
+        "source_type": "Product audit simulation",
+        "topic": "pricing",
+        "tier": 3.0,
+        "reliability_score": 22.0,
+        "origin_group": "ORG-002",
+        "locator": "Synthetic artifact, paragraph 1",
+        "usage_rights": "Synthetic demonstration content",
+        "freshness_status": "Recent",
+        "archive_status": "INTEGRITY CHECK PASSED",
+        "authentication_status": "Publisher identity not authenticated"
+      },
+      {
+        "source_id": "SRC-003",
+        "source_title": "Synthetic market arithmetic",
+        "source_url": "synthetic://northstar/src-003",
+        "publisher": "Synthetic Research Studio",
+        "publication_date": "2026-09-20",
+        "access_date": "2026-10-06",
+        "source_type": "Market model simulation",
+        "topic": "market",
+        "tier": 2.0,
+        "reliability_score": 21.0,
+        "origin_group": "ORG-003",
+        "locator": "Synthetic artifact, paragraph 1",
+        "usage_rights": "Synthetic demonstration content",
+        "freshness_status": "Current",
+        "archive_status": "INTEGRITY CHECK PASSED",
+        "authentication_status": "Publisher identity not authenticated"
+      },
+      {
+        "source_id": "SRC-004",
+        "source_title": "Synthetic procurement exercise",
+        "source_url": "synthetic://northstar/src-004",
+        "publisher": "Synthetic Research Studio",
+        "publication_date": "2026-09-20",
+        "access_date": "2026-10-06",
+        "source_type": "Procurement simulation",
+        "topic": "customer",
+        "tier": 3.0,
+        "reliability_score": 18.0,
+        "origin_group": "ORG-004",
+        "locator": "Synthetic artifact, paragraph 1",
+        "usage_rights": "Synthetic demonstration content",
+        "freshness_status": "Current",
+        "archive_status": "INTEGRITY CHECK PASSED",
+        "authentication_status": "Publisher identity not authenticated"
+      },
+      {
+        "source_id": "SRC-005",
+        "source_title": "Synthetic connector trial",
+        "source_url": "synthetic://northstar/src-005",
+        "publisher": "Synthetic Research Studio",
+        "publication_date": "2026-09-20",
+        "access_date": "2026-10-06",
+        "source_type": "Technical trial simulation",
+        "topic": "product",
+        "tier": 3.0,
+        "reliability_score": 23.0,
+        "origin_group": "ORG-005",
+        "locator": "Synthetic artifact, paragraph 1",
+        "usage_rights": "Synthetic demonstration content",
+        "freshness_status": "Current",
+        "archive_status": "INTEGRITY CHECK PASSED",
+        "authentication_status": "Publisher identity not authenticated"
+      },
+      {
+        "source_id": "SRC-006",
+        "source_title": "Synthetic contradictory interview memo",
+        "source_url": "synthetic://northstar/src-006",
+        "publisher": "Synthetic Research Studio",
+        "publication_date": "2026-09-20",
+        "access_date": "2026-10-06",
+        "source_type": "Interview simulation",
+        "topic": "customer",
+        "tier": 3.0,
+        "reliability_score": 18.0,
+        "origin_group": "ORG-006",
+        "locator": "Synthetic artifact, paragraph 1",
+        "usage_rights": "Synthetic demonstration content",
+        "freshness_status": "Current",
+        "archive_status": "INTEGRITY CHECK PASSED",
+        "authentication_status": "Publisher identity not authenticated"
+      }
+    ],
+    "quality": {
+      "missing_urls": 0,
+      "duplicate_urls": 0,
+      "low_reliability": 0
+    }
+  }
+}

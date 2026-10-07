@@ -1,0 +1,2 @@
+sample_status,debt_id,claim_id,debt_type,evidence_ids,confidence_score,decision_exposure,resolution,owner,due_date,status,decision_ids,critical
+FICTIONAL SAMPLE,DBT-001,CLM-001,contradiction,EV-001|EV-006,59.00,Pain prevalence and pilot targeting,Segment by workflow frequency; sample disconfirming cases,Research lead,2026-11-05,OPEN,DEC-001,true

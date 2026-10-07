@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Customer Segment",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sample_status",
+    "segment_id",
+    "name",
+    "icp_inclusion",
+    "icp_exclusion",
+    "jobs_to_be_done",
+    "pains",
+    "desired_outcomes",
+    "buying_triggers",
+    "switching_triggers",
+    "decision_criteria",
+    "price_sensitivity",
+    "objections",
+    "evidence_ids",
+    "claim_ids",
+    "label",
+    "population_limit",
+    "owner",
+    "as_of_date"
+  ],
+  "properties": {
+    "sample_status": {
+      "type": "string",
+      "description": "sample status; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "segment_id": {
+      "type": "string",
+      "description": "segment id; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "pattern": "^[A-Z][A-Z0-9-]*$"
+    },
+    "name": {
+      "type": "string",
+      "description": "name; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "icp_inclusion": {
+      "type": "string",
+      "description": "icp inclusion; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "icp_exclusion": {
+      "type": "string",
+      "description": "icp exclusion; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "jobs_to_be_done": {
+      "type": "string",
+      "description": "jobs to be done; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "pains": {
+      "type": "string",
+      "description": "pains; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "desired_outcomes": {
+      "type": "string",
+      "description": "desired outcomes; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "buying_triggers": {
+      "type": "string",
+      "description": "buying triggers; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "switching_triggers": {
+      "type": "string",
+      "description": "switching triggers; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "decision_criteria": {
+      "type": "string",
+      "description": "decision criteria; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "price_sensitivity": {
+      "type": "string",
+      "description": "price sensitivity; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "objections": {
+      "type": "string",
+      "description": "objections; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "evidence_ids": {
+      "type": "string",
+      "description": "evidence ids; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "claim_ids": {
+      "type": "string",
+      "description": "claim ids; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "confidence_score": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "confidence score"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "label": {
+      "type": "string",
+      "description": "label; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ]
+    },
+    "population_limit": {
+      "type": "string",
+      "description": "population limit; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "owner": {
+      "type": "string",
+      "description": "owner; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "as_of_date": {
+      "type": "string",
+      "description": "as of date; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "format": "date"
+    }
+  }
+}

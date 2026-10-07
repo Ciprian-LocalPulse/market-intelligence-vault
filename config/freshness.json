@@ -1,0 +1,27 @@
+{
+  "default": {
+    "current_days": 30,
+    "recent_days": 90,
+    "aging_days": 180
+  },
+  "pricing": {
+    "current_days": 14,
+    "recent_days": 45,
+    "aging_days": 90
+  },
+  "market": {
+    "current_days": 90,
+    "recent_days": 180,
+    "aging_days": 365
+  },
+  "customer": {
+    "current_days": 30,
+    "recent_days": 90,
+    "aging_days": 180
+  },
+  "product": {
+    "current_days": 30,
+    "recent_days": 60,
+    "aging_days": 120
+  }
+}

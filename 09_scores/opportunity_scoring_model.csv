@@ -1,0 +1,11 @@
+factor,weight,input_min,input_max,direction,definition,anchor_0,anchor_mid,anchor_max
+market_demand,15,0,5,positive,Observed qualified demand,No qualified demand,Repeated qualified problem observations,Paid repeated demand across relevant workflows
+growth_potential,10,0,5,positive,Sustainable category expansion,Contraction with no offsetting driver,Stable demand with a supported expansion mechanism,Sustained comparable growth with durable drivers
+pain_intensity,15,0,5,positive,Frequency and cost of the problem,No measurable burden,Recurring burden tolerated with workarounds,Frequent severe cost with action to resolve
+competitive_saturation,10,0,5,inverse,Crowding of viable alternatives,No viable alternatives after substitute search,Several capable alternatives,Crowded matched offers with aggressive response
+differentiation_potential,10,0,5,positive,Defensible customer-valued distinction,No valued distinction,Measured but easily copied outcome improvement,Valued measured improvement with defensible capability
+monetization_potential,10,0,5,positive,Tested willingness to pay and contribution margin,No willingness to pay or negative contribution,Priced interest with unproven repeat economics,Repeated paid renewal and sustainable contribution
+implementation_difficulty,8,0,5,inverse,Technical and operational delivery burden,Existing proven delivery with minimal change,Several new capabilities or integrations,Unproven critical technology or extensive operating build
+time_to_market,7,0,5,inverse,Elapsed time before value can be delivered,Value deliverable within one month,Value deliverable within one to two quarters,Value requires more than a year
+evidence_confidence,5,0,5,positive,Weakest material supporting claim confidence / 20,Material claim confidence 0,Material claim confidence 60,Material claim confidence 100
+strategic_fit,10,0,5,positive,Capabilities and stated strategic constraints,Conflicts with stated mandate or capability,Adjacent capability with manageable gaps,Fits mandate and existing verified capacity

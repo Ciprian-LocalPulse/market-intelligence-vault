@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "contract_version": "1.1.0",
+    "repository_version": "1.1.0",
+    "model_version": "1.0.1",
+    "engagement_name": "Northstar Analytics",
+    "mode": "FICTIONAL DEMONSTRATION",
+    "demo_label": "FICTIONAL DEMONSTRATION DATA",
+    "as_of_date": "2026-10-06",
+    "validated_at": "2026-10-07T02:50:04.177418+00:00",
+    "snapshot_id": "a314f18aa1e7f4d221979ba0c29bed1c1b816e66b88870de5e5b80038aff3a4d",
+    "input_digest": "1651cbe5a157597b3319269aaf0306a0a45304574bd7c6898ea41a06441321c1",
+    "approval": {
+      "status": "ACTION NOT APPROVED",
+      "reasons": [
+        "Fictional or unresearched records cannot authorize a live action. A reviewed live engagement and named sign-off are required."
+      ],
+      "review_date": "2026-10-06",
+      "checked_at": "2026-10-07T02:50:03.988263+00:00",
+      "scope": "All recommendations must satisfy unchanged 1.0.1 live-delivery gates. This is a snapshot, not signer authentication."
+    },
+    "score_reconciliation": "Populated derived values reconcile; unavailable optional values remain null."
+  },
+  "data": {
+    "records": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assumption_id": "ASM-001",
+        "assumption": "Three workflows will convert to paid pilots",
+        "label": "HYPOTHESIS",
+        "basis": "No paid observation exists",
+        "evidence_ids": [
+          "EV-001",
+          "EV-004"
+        ],
+        "confidence_score": 59.0,
+        "failure_impact": "Stop expansion and revisit economics",
+        "validation_method": "Request paid commitment after observed task test",
+        "owner": "Commercial lead",
+        "due_date": "2026-11-05",
+        "status": "OPEN",
+        "decision_ids": [
+          "DEC-001"
+        ],
+        "critical": true,
+        "confidence_category": "Low"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "assumption_id": "ASM-SYN-001",
+        "assumption": "All sample business-factor ratings are invented ordinal assumptions",
+        "label": "HYPOTHESIS",
+        "basis": "Demonstration-only inputs; never live observations",
+        "evidence_ids": [
+          "EV-001",
+          "EV-004"
+        ],
+        "confidence_score": 59.0,
+        "failure_impact": "Scores cannot support real capital allocation",
+        "validation_method": "Replace each factor with scoped live evidence or an explicitly owned assumption",
+        "owner": "Commercial lead",
+        "due_date": "2026-11-05",
+        "status": "OPEN",
+        "decision_ids": [
+          "DEC-001"
+        ],
+        "critical": false,
+        "confidence_category": "Low"
+      }
+    ]
+  }
+}

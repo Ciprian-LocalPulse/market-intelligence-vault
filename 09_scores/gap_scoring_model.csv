@@ -1,0 +1,6 @@
+factor,weight,input_min,input_max,direction,definition,anchor_0,anchor_mid,anchor_max
+unmet_need,30,0,5,positive,Evidence of meaningful unsatisfied need,No observed unmet outcome,Recurring unsatisfied outcome,Severe repeated unmet outcome with economic consequence
+underserved_reach,20,0,5,positive,Reachable customers affected,No reachable affected workflows,Defined reachable affected subset,Large verified reachable affected pool
+alternative_failure,20,0,5,positive,Observed inadequacy of alternatives,Equivalent alternatives work well,Alternatives fail some material tasks,Matched alternatives repeatedly fail the core job
+solution_feasibility,15,0,5,positive,Ability to close the gap,No feasible capability/path,Plausible prototype with material gaps,Tested solution within delivery and economics constraints
+evidence_confidence,15,0,5,positive,Weakest material supporting confidence / 20,Material claim confidence 0,Material claim confidence 60,Material claim confidence 100

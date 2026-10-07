@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "contract_version": "1.1.0",
+    "repository_version": "1.1.0",
+    "model_version": "1.0.1",
+    "engagement_name": "Northstar Analytics",
+    "mode": "FICTIONAL DEMONSTRATION",
+    "demo_label": "FICTIONAL DEMONSTRATION DATA",
+    "as_of_date": "2026-10-06",
+    "validated_at": "2026-10-07T02:50:04.177418+00:00",
+    "snapshot_id": "a314f18aa1e7f4d221979ba0c29bed1c1b816e66b88870de5e5b80038aff3a4d",
+    "input_digest": "1651cbe5a157597b3319269aaf0306a0a45304574bd7c6898ea41a06441321c1",
+    "approval": {
+      "status": "ACTION NOT APPROVED",
+      "reasons": [
+        "Fictional or unresearched records cannot authorize a live action. A reviewed live engagement and named sign-off are required."
+      ],
+      "review_date": "2026-10-06",
+      "checked_at": "2026-10-07T02:50:03.988263+00:00",
+      "scope": "All recommendations must satisfy unchanged 1.0.1 live-delivery gates. This is a snapshot, not signer authentication."
+    },
+    "score_reconciliation": "Populated derived values reconcile; unavailable optional values remain null."
+  },
+  "data": {
+    "records": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "competitor_id": "CMP-001",
+        "company": "Cedar Metric (invented)",
+        "website": "synthetic://northstar/competitor-1",
+        "geography": "Synthetic Region A",
+        "segment": "SEG-001",
+        "product": "Synthetic workflow product",
+        "pricing": 3600.0,
+        "pricing_currency": "USD",
+        "pricing_period": "annual",
+        "positioning": "Broad reporting toolkit",
+        "target_customer": "Organizations with recurring reconciliation tasks",
+        "funding": "Unknown in demonstration",
+        "partnerships": "Unknown in demonstration",
+        "strengths": "Broad reporting toolkit",
+        "weaknesses": "Setup burden in task audit",
+        "differentiators": "Synthetic task coverage; see profile",
+        "recent_changes": "No verified change in demonstration",
+        "market_signals": "No external signal collected",
+        "brand_strength": 3.0,
+        "pricing_pressure": 3.0,
+        "product_maturity": 4.0,
+        "distribution": 4.0,
+        "switching_costs": 3.0,
+        "capital_strength": 3.0,
+        "innovation_velocity": 3.0,
+        "customer_loyalty": 3.0,
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "confidence_score": 72.0,
+        "competitor_pressure_score": 66.0,
+        "owner": "Competitive intelligence lead",
+        "as_of_date": "2026-10-06",
+        "confidence_category": "Moderate",
+        "pressure_category": "Strong"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "competitor_id": "CMP-002",
+        "company": "Harbor Ledger (invented)",
+        "website": "synthetic://northstar/competitor-2",
+        "geography": "Synthetic Region A",
+        "segment": "SEG-001",
+        "product": "Synthetic workflow product",
+        "pricing": 6000.0,
+        "pricing_currency": "USD",
+        "pricing_period": "annual",
+        "positioning": "Managed reconciliation",
+        "target_customer": "Organizations with recurring reconciliation tasks",
+        "funding": "Unknown in demonstration",
+        "partnerships": "Unknown in demonstration",
+        "strengths": "Managed reconciliation",
+        "weaknesses": "Longer assisted deployment",
+        "differentiators": "Synthetic task coverage; see profile",
+        "recent_changes": "No verified change in demonstration",
+        "market_signals": "No external signal collected",
+        "brand_strength": 3.0,
+        "pricing_pressure": 2.0,
+        "product_maturity": 4.0,
+        "distribution": 3.0,
+        "switching_costs": 4.0,
+        "capital_strength": 2.0,
+        "innovation_velocity": 2.0,
+        "customer_loyalty": 4.0,
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "confidence_score": 72.0,
+        "competitor_pressure_score": 60.8,
+        "owner": "Competitive intelligence lead",
+        "as_of_date": "2026-10-06",
+        "confidence_category": "Moderate",
+        "pressure_category": "Strong"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "competitor_id": "CMP-003",
+        "company": "Quartz Flow (invented)",
+        "website": "synthetic://northstar/competitor-3",
+        "geography": "Synthetic Region A",
+        "segment": "SEG-001",
+        "product": "Synthetic workflow product",
+        "pricing": 2400.0,
+        "pricing_currency": "USD",
+        "pricing_period": "annual",
+        "positioning": "Workflow automation",
+        "target_customer": "Organizations with recurring reconciliation tasks",
+        "funding": "Unknown in demonstration",
+        "partnerships": "Unknown in demonstration",
+        "strengths": "Workflow automation",
+        "weaknesses": "Limited audit export in simulation",
+        "differentiators": "Synthetic task coverage; see profile",
+        "recent_changes": "No verified change in demonstration",
+        "market_signals": "No external signal collected",
+        "brand_strength": 2.0,
+        "pricing_pressure": 4.0,
+        "product_maturity": 3.0,
+        "distribution": 3.0,
+        "switching_costs": 2.0,
+        "capital_strength": 2.0,
+        "innovation_velocity": 4.0,
+        "customer_loyalty": 2.0,
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "claim_ids": [
+          "CLM-002"
+        ],
+        "confidence_score": 72.0,
+        "competitor_pressure_score": 55.6,
+        "owner": "Competitive intelligence lead",
+        "as_of_date": "2026-10-06",
+        "confidence_category": "Moderate",
+        "pressure_category": "Moderate"
+      }
+    ],
+    "pricing": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "competitor_id": "CMP-001",
+        "price_id": "PRC-001",
+        "plan": "Synthetic standard plan",
+        "price": "3600",
+        "currency": "USD",
+        "billing_period": "annual",
+        "minimum_commitment": "12 months",
+        "included_units": "One synthetic workspace",
+        "overage": "Unknown",
+        "setup_fee": "0",
+        "tax_basis": "Tax excluded",
+        "comparison_limit": "Scope differs; do not compare price alone",
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "confidence_score": 72.0,
+        "as_of_date": "2026-10-06",
+        "confidence_category": "Moderate"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "competitor_id": "CMP-002",
+        "price_id": "PRC-002",
+        "plan": "Synthetic standard plan",
+        "price": "6000",
+        "currency": "USD",
+        "billing_period": "annual",
+        "minimum_commitment": "12 months",
+        "included_units": "One synthetic workspace",
+        "overage": "Unknown",
+        "setup_fee": "0",
+        "tax_basis": "Tax excluded",
+        "comparison_limit": "Scope differs; do not compare price alone",
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "confidence_score": 72.0,
+        "as_of_date": "2026-10-06",
+        "confidence_category": "Moderate"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "competitor_id": "CMP-003",
+        "price_id": "PRC-003",
+        "plan": "Synthetic standard plan",
+        "price": "2400",
+        "currency": "USD",
+        "billing_period": "annual",
+        "minimum_commitment": "12 months",
+        "included_units": "One synthetic workspace",
+        "overage": "Unknown",
+        "setup_fee": "0",
+        "tax_basis": "Tax excluded",
+        "comparison_limit": "Scope differs; do not compare price alone",
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "confidence_score": 72.0,
+        "as_of_date": "2026-10-06",
+        "confidence_category": "Moderate"
+      }
+    ],
+    "changes": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "change_id": "CHG-001",
+        "competitor_id": "CMP-001",
+        "signal_type": "pricing change",
+        "observed_date": "2026-10-06",
+        "previous_value": "Unknown",
+        "new_value": "USD 3600 annual synthetic plan",
+        "materiality": "Unverified change; baseline observation only",
+        "evidence_ids": [
+          "EV-002"
+        ],
+        "confidence_score": 72.0,
+        "response": "Establish baseline before asserting a change",
+        "owner": "Competitive intelligence lead",
+        "status": "MONITOR",
+        "confidence_category": "Moderate"
+      }
+    ]
+  }
+}

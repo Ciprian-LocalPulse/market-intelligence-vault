@@ -1,0 +1,19 @@
+{
+  "status": "DRAFT",
+  "scope": "",
+  "as_of_date": "",
+  "input_digest": "",
+  "reviewer": "",
+  "decision_authority": "",
+  "approved_decision_ids": [],
+  "critical_risk_acceptances": [],
+  "checks": {
+    "evidence_review": false,
+    "source_rights_review": false,
+    "privacy_review": false,
+    "contradiction_review": false,
+    "calculation_review": false,
+    "bias_review": false,
+    "narrative_review": false
+  }
+}

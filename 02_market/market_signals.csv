@@ -1,0 +1,2 @@
+sample_status,signal_id,signal_type,signal,label,observed_date,evidence_ids,confidence_score,promotion_criteria,response,owner,status
+FICTIONAL SAMPLE,SIG-001,weak signal,Assisted setup may reduce deployment objections,HYPOTHESIS,2026-10-06,EV-002|EV-004,59.00,Three independent verified deployment observations,Observe before elevating to trend,Research lead,MONITOR

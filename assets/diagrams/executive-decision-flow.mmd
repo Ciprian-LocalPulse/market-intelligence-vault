@@ -1,0 +1,12 @@
+flowchart TD
+  ST[Start] --> DD[Define Decision]
+  DD --> GE[Gather Evidence]
+  GE --> EC[Evaluate Confidence]
+  EC --> IR[Identify Risks]
+  IR --> CC[Check Contradictions]
+  CC --> CG[Check Research Gaps]
+  CG --> GR[Generate Recommendation]
+  GR --> AG{Approval Gate}
+  AG -->|Passed and authorized| AC[Action]
+  AG -->|Insufficient support or approval| FV[Further Validation]
+  FV --> GE

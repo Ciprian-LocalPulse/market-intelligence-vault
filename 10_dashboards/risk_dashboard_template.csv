@@ -1,0 +1,4 @@
+sample_status,risk_id,title,risk_score,classification,confidence_score,trigger,owner,as_of_date
+FICTIONAL SAMPLE,RSK-001,Connector capacity limits test scope,75.00,High,78.00,Second connector exceeds 15 engineer days,Delivery lead,2026-10-06
+FICTIONAL SAMPLE,RSK-002,Procurement delays paid conversion,66.00,High,59.00,Security review remains open at day 30,Commercial lead,2026-10-06
+FICTIONAL SAMPLE,RSK-003,Pain does not translate into willingness to pay,72.00,High,59.00,Fewer than three commitments at day 60,Commercial lead,2026-10-06

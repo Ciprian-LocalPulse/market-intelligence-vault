@@ -1,0 +1,22 @@
+{
+  "model_version": "1.0.1",
+  "claim_type_caps": {
+    "FACT": 100,
+    "INFERENCE": 89,
+    "ESTIMATE": 74,
+    "HYPOTHESIS": 59,
+    "RECOMMENDATION": 0
+  },
+  "opportunity_confidence_floor": 0.25,
+  "opportunity_confidence_weight": 0.75,
+  "irreversible_decisions": [
+    "ENTER",
+    "EXPAND",
+    "ACQUIRE",
+    "PARTNER",
+    "DIFFERENTIATE",
+    "REPOSITION"
+  ],
+  "commitment_confidence_min": 75,
+  "live_test_budget_must_be_capped": true
+}

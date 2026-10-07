@@ -1,0 +1,36 @@
+name: "Bug report"
+description: "Report a reproducible software defect"
+body:
+  - type: markdown
+    attributes:
+      value: "Use fictional examples. Do not include secrets, client records or private vulnerability details."
+  - type: textarea
+    id: field-1
+    attributes:
+      label: "Version"
+    validations:
+      required: true
+  - type: textarea
+    id: field-2
+    attributes:
+      label: "Environment"
+    validations:
+      required: true
+  - type: textarea
+    id: field-3
+    attributes:
+      label: "Reproduction steps / current workflow"
+    validations:
+      required: true
+  - type: textarea
+    id: field-4
+    attributes:
+      label: "Expected behavior"
+    validations:
+      required: true
+  - type: textarea
+    id: field-5
+    attributes:
+      label: "Actual behavior"
+    validations:
+      required: true

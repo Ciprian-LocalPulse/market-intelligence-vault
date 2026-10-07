@@ -1,0 +1,26 @@
+{
+  "allowed_routes": 23,
+  "blocked_routes": 10,
+  "bad_host": 403,
+  "changed_repository_guard": 409,
+  "preserved_canonical_files": 50,
+  "snapshot_integrity": "PASS",
+  "print": {
+    "overview": {
+      "pages": 3,
+      "fictional_pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    "decision": {
+      "pages": 3,
+      "fictional_pages": [
+        1,
+        2,
+        3
+      ]
+    }
+  }
+}

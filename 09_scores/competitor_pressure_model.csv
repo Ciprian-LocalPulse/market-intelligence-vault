@@ -1,0 +1,9 @@
+factor,weight,input_min,input_max,direction,definition,anchor_0,anchor_mid,anchor_max
+brand_strength,12,0,5,positive,Recognition among relevant buyers,Little relevant recognition,Recognized in relevant workflows,Dominant relevant recognition with observed preference
+pricing_pressure,14,0,5,positive,Ability to undercut sustainable economics,Cannot materially undercut sustainable price,Can discount or bundle selected tasks,Can sustain aggressive pricing across the target task
+product_maturity,14,0,5,positive,Coverage and reliability,Prototype or unproven reliability,Stable core task coverage,Proven broad coverage and operating reliability
+distribution,16,0,5,positive,Access to relevant acquisition channels,Little access to relevant demand,Several effective channels,Strong recurring access with channel control
+switching_costs,12,0,5,positive,Incumbent retention friction,Easy incumbent replacement,Material migration or retraining,Contract/data/workflow lock-in supports retention
+capital_strength,10,0,5,positive,Ability to fund sustained response,Constrained sustained response capacity,Can fund selective responses,Verified capacity to sustain multi-year response
+innovation_velocity,10,0,5,positive,Verified release cadence,No meaningful verified releases,Regular useful releases,Rapid sustained validated task improvement
+customer_loyalty,12,0,5,positive,Retention and repeat behavior,Low observed repeat behavior,Mixed retention in comparable cohorts,Strong repeated renewals with documented reasons

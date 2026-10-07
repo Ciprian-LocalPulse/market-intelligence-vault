@@ -1,0 +1,7 @@
+factor,weight,input_min,input_max,direction,definition,anchor_0,anchor_mid,anchor_max
+potential_upside,25,0,5,positive,Scoped attainable upside,Least favorable condition,Mixed condition with basis,Most favorable condition
+cost,15,0,5,inverse,Resource burden,Least favorable condition,Mixed condition with basis,Most favorable condition
+time_to_value,10,0,5,inverse,Delay before useful outcome,Least favorable condition,Mixed condition with basis,Most favorable condition
+execution_difficulty,10,0,5,inverse,Delivery burden,Least favorable condition,Mixed condition with basis,Most favorable condition
+risk,15,0,5,inverse,Exposure burden,Least favorable condition,Mixed condition with basis,Most favorable condition
+strategic_fit,25,0,5,positive,Fit with stated capacity and mandate,Least favorable condition,Mixed condition with basis,Most favorable condition

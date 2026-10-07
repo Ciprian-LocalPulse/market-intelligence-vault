@@ -1,0 +1,307 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Opportunity",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sample_status",
+    "opportunity_id",
+    "title",
+    "segment_id",
+    "gap_category",
+    "label",
+    "market_demand",
+    "growth_potential",
+    "pain_intensity",
+    "competitive_saturation",
+    "differentiation_potential",
+    "monetization_potential",
+    "implementation_difficulty",
+    "time_to_market",
+    "strategic_fit",
+    "evidence_ids",
+    "claim_ids",
+    "business_impact",
+    "owner",
+    "next_validation_step",
+    "status",
+    "as_of_date"
+  ],
+  "properties": {
+    "sample_status": {
+      "type": "string",
+      "description": "sample status; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "FICTIONAL SAMPLE",
+        "LIVE",
+        "TEMPLATE"
+      ]
+    },
+    "opportunity_id": {
+      "type": "string",
+      "description": "opportunity id; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "pattern": "^[A-Z][A-Z0-9-]*$"
+    },
+    "title": {
+      "type": "string",
+      "description": "title; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "segment_id": {
+      "type": "string",
+      "description": "segment id; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "pattern": "^[A-Z][A-Z0-9-]*$"
+    },
+    "gap_category": {
+      "type": "string",
+      "description": "gap category; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "underserved customer",
+        "missing feature",
+        "poor experience",
+        "pricing gap",
+        "geographic gap",
+        "trust gap",
+        "distribution gap",
+        "education gap",
+        "integration gap",
+        "speed/convenience gap",
+        "regulatory opportunity",
+        "business model gap"
+      ]
+    },
+    "label": {
+      "type": "string",
+      "description": "label; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "FACT",
+        "INFERENCE",
+        "ESTIMATE",
+        "HYPOTHESIS",
+        "RECOMMENDATION"
+      ]
+    },
+    "market_demand": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "market demand"
+    },
+    "growth_potential": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "growth potential"
+    },
+    "pain_intensity": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "pain intensity"
+    },
+    "competitive_saturation": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "competitive saturation"
+    },
+    "differentiation_potential": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "differentiation potential"
+    },
+    "monetization_potential": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "monetization potential"
+    },
+    "implementation_difficulty": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "implementation difficulty"
+    },
+    "time_to_market": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "time to market"
+    },
+    "evidence_confidence": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5,
+          "description": "evidence confidence"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "strategic_fit": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "strategic fit"
+    },
+    "evidence_ids": {
+      "type": "string",
+      "description": "evidence ids; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "claim_ids": {
+      "type": "string",
+      "description": "claim ids; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "confidence_score": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "confidence score"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "raw_score": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "raw score"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "opportunity_score": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "opportunity score"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "action_category": {
+      "anyOf": [
+        {
+          "type": "string",
+          "description": "action category; see DATA_DICTIONARY.md."
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "decision_gate": {
+      "anyOf": [
+        {
+          "type": "string",
+          "description": "decision gate; see DATA_DICTIONARY.md."
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "business_impact": {
+      "type": "string",
+      "description": "business impact; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "owner": {
+      "type": "string",
+      "description": "owner; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "next_validation_step": {
+      "type": "string",
+      "description": "next validation step; see DATA_DICTIONARY.md.",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "description": "status; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "enum": [
+        "PROPOSED",
+        "VALIDATING",
+        "APPROVED",
+        "REJECTED",
+        "RETIRED"
+      ]
+    },
+    "as_of_date": {
+      "type": "string",
+      "description": "as of date; see DATA_DICTIONARY.md.",
+      "minLength": 1,
+      "format": "date"
+    },
+    "merit_score": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "merit score"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "confidence_multiplier": {
+      "anyOf": [
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "confidence multiplier"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    },
+    "input_basis_status": {
+      "anyOf": [
+        {
+          "type": "string",
+          "description": "input basis status; see DATA_DICTIONARY.md."
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Optional or derived; unavailable is null, not zero."
+    }
+  }
+}

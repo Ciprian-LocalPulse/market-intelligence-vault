@@ -1,0 +1,4 @@
+sample_status,opportunity_id,title,opportunity_score,confidence_score,action_category,decision_gate,owner,as_of_date,merit_score,input_basis_status
+FICTIONAL SAMPLE,OPP-001,Assisted reconciliation pilot,52.48,59.00,WATCH,RESEARCH REQUIRED,Product lead,2026-10-06,75.79,ASSUMED INPUTS
+FICTIONAL SAMPLE,OPP-002,Packaged connector onboarding,47.40,72.00,WATCH,VALIDATION ONLY,Product lead,2026-10-06,60.00,ASSUMED INPUTS
+FICTIONAL SAMPLE,OPP-003,Self-service evidence export,33.53,59.00,DEPRIORITIZE,RESEARCH REQUIRED,Product lead,2026-10-06,48.42,ASSUMED INPUTS

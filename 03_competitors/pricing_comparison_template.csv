@@ -1,0 +1,4 @@
+sample_status,competitor_id,price_id,plan,price,currency,billing_period,minimum_commitment,included_units,overage,setup_fee,tax_basis,comparison_limit,evidence_ids,confidence_score,as_of_date
+FICTIONAL SAMPLE,CMP-001,PRC-001,Synthetic standard plan,3600,USD,annual,12 months,One synthetic workspace,Unknown,0,Tax excluded,Scope differs; do not compare price alone,EV-002,72.00,2026-10-06
+FICTIONAL SAMPLE,CMP-002,PRC-002,Synthetic standard plan,6000,USD,annual,12 months,One synthetic workspace,Unknown,0,Tax excluded,Scope differs; do not compare price alone,EV-002,72.00,2026-10-06
+FICTIONAL SAMPLE,CMP-003,PRC-003,Synthetic standard plan,2400,USD,annual,12 months,One synthetic workspace,Unknown,0,Tax excluded,Scope differs; do not compare price alone,EV-002,72.00,2026-10-06

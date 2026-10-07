@@ -1,0 +1,14 @@
+flowchart TD
+  S[Sources] --> E[Evidence]
+  E --> C[Claims]
+  C --> V[Validation]
+  V --> A[Analysis]
+  A --> I[Scores]
+  I --> R[Recommendations]
+  R --> D[Executive Decision]
+  C --> X[Contradictions]
+  X --> V
+  D --> G[Research Gaps]
+  G --> S
+  S --> F[Freshness Review]
+  F --> E

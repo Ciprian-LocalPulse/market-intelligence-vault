@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "contract_version": "1.1.0",
+    "repository_version": "1.1.0",
+    "model_version": "1.0.1",
+    "engagement_name": "Northstar Analytics",
+    "mode": "FICTIONAL DEMONSTRATION",
+    "demo_label": "FICTIONAL DEMONSTRATION DATA",
+    "as_of_date": "2026-10-06",
+    "validated_at": "2026-10-07T02:50:04.177418+00:00",
+    "snapshot_id": "a314f18aa1e7f4d221979ba0c29bed1c1b816e66b88870de5e5b80038aff3a4d",
+    "input_digest": "1651cbe5a157597b3319269aaf0306a0a45304574bd7c6898ea41a06441321c1",
+    "approval": {
+      "status": "ACTION NOT APPROVED",
+      "reasons": [
+        "Fictional or unresearched records cannot authorize a live action. A reviewed live engagement and named sign-off are required."
+      ],
+      "review_date": "2026-10-06",
+      "checked_at": "2026-10-07T02:50:03.988263+00:00",
+      "scope": "All recommendations must satisfy unchanged 1.0.1 live-delivery gates. This is a snapshot, not signer authentication."
+    },
+    "score_reconciliation": "Populated derived values reconcile; unavailable optional values remain null."
+  },
+  "data": {
+    "records": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "action_id": "ACT-001",
+        "decision_id": "DEC-001",
+        "phase": "Days 1–30",
+        "action": "Observe ten qualified reconciliation workflows",
+        "owner": "Research lead",
+        "objective": "Resolve the next material uncertainty before release of further budget",
+        "success_metric": "Ten completed task observations; baseline minutes recorded",
+        "dependency": "Recruitment access",
+        "priority": "High",
+        "risk": "Sampling bias",
+        "status": "NOT STARTED",
+        "evidence_ids": [
+          "EV-001",
+          "EV-004",
+          "EV-005"
+        ],
+        "as_of_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "action_id": "ACT-002",
+        "decision_id": "DEC-001",
+        "phase": "Days 1–30",
+        "action": "Complete second connector spike and security questionnaire",
+        "owner": "Delivery lead",
+        "objective": "Resolve the next material uncertainty before release of further budget",
+        "success_metric": "Connector <=15 engineer days; questionnaire completed",
+        "dependency": "Scoped test data",
+        "priority": "High",
+        "risk": "Connector complexity",
+        "status": "NOT STARTED",
+        "evidence_ids": [
+          "EV-001",
+          "EV-004",
+          "EV-005"
+        ],
+        "as_of_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "action_id": "ACT-003",
+        "decision_id": "DEC-001",
+        "phase": "Days 31–60",
+        "action": "Recruit three paid pilot commitments if stage gate passes",
+        "owner": "Commercial lead",
+        "objective": "Resolve the next material uncertainty before release of further budget",
+        "success_metric": "Three priced commitments with cancellation terms",
+        "dependency": "DEP-001",
+        "priority": "High",
+        "risk": "Procurement delay",
+        "status": "NOT STARTED",
+        "evidence_ids": [
+          "EV-001",
+          "EV-004",
+          "EV-005"
+        ],
+        "as_of_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "action_id": "ACT-004",
+        "decision_id": "DEC-001",
+        "phase": "Days 31–60",
+        "action": "Run assisted reconciliation pilot",
+        "owner": "Product lead",
+        "objective": "Resolve the next material uncertainty before release of further budget",
+        "success_metric": ">=30% median task-time reduction; no critical accuracy defect",
+        "dependency": "ACT-003",
+        "priority": "High",
+        "risk": "Unreliable outputs",
+        "status": "NOT STARTED",
+        "evidence_ids": [
+          "EV-001",
+          "EV-004",
+          "EV-005"
+        ],
+        "as_of_date": "2026-10-06"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "action_id": "ACT-005",
+        "decision_id": "DEC-001",
+        "phase": "Days 61–90",
+        "action": "Review economics and choose EXPAND or WAIT",
+        "owner": "Strategy lead",
+        "objective": "Resolve the next material uncertainty before release of further budget",
+        "success_metric": "Positive contribution per pilot; >=2 renewals or explicit stop",
+        "dependency": "ACT-004",
+        "priority": "High",
+        "risk": "Premature scale",
+        "status": "NOT STARTED",
+        "evidence_ids": [
+          "EV-001",
+          "EV-004",
+          "EV-005"
+        ],
+        "as_of_date": "2026-10-06"
+      }
+    ]
+  }
+}

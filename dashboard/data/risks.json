@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "contract_version": "1.1.0",
+    "repository_version": "1.1.0",
+    "model_version": "1.0.1",
+    "engagement_name": "Northstar Analytics",
+    "mode": "FICTIONAL DEMONSTRATION",
+    "demo_label": "FICTIONAL DEMONSTRATION DATA",
+    "as_of_date": "2026-10-06",
+    "validated_at": "2026-10-07T02:50:04.177418+00:00",
+    "snapshot_id": "a314f18aa1e7f4d221979ba0c29bed1c1b816e66b88870de5e5b80038aff3a4d",
+    "input_digest": "1651cbe5a157597b3319269aaf0306a0a45304574bd7c6898ea41a06441321c1",
+    "approval": {
+      "status": "ACTION NOT APPROVED",
+      "reasons": [
+        "Fictional or unresearched records cannot authorize a live action. A reviewed live engagement and named sign-off are required."
+      ],
+      "review_date": "2026-10-06",
+      "checked_at": "2026-10-07T02:50:03.988263+00:00",
+      "scope": "All recommendations must satisfy unchanged 1.0.1 live-delivery gates. This is a snapshot, not signer authentication."
+    },
+    "score_reconciliation": "Populated derived values reconcile; unavailable optional values remain null."
+  },
+  "data": {
+    "records": [
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "risk_id": "RSK-001",
+        "title": "Connector capacity limits test scope",
+        "category": "execution",
+        "label": "HYPOTHESIS",
+        "horizon_days": 90.0,
+        "likelihood": 4.0,
+        "impact": 4.0,
+        "detectability": 3.0,
+        "velocity": 4.0,
+        "mitigation_readiness": 2.0,
+        "evidence_ids": [
+          "EV-005"
+        ],
+        "claim_ids": [
+          "CLM-005"
+        ],
+        "confidence_score": 78.0,
+        "risk_score": 75.0,
+        "classification": "High",
+        "override": false,
+        "override_reason": null,
+        "mitigation": "Time-box spike and retain a manual import fallback",
+        "trigger": "Second connector exceeds 15 engineer days",
+        "owner": "Delivery lead",
+        "residual_risk": "Not recalculated until mitigation is verified",
+        "status": "OPEN",
+        "as_of_date": "2026-10-06",
+        "structural_zero": false,
+        "review_required": "OWNER REVIEW",
+        "confidence_category": "High"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "risk_id": "RSK-002",
+        "title": "Procurement delays paid conversion",
+        "category": "commercial",
+        "label": "HYPOTHESIS",
+        "horizon_days": 90.0,
+        "likelihood": 4.0,
+        "impact": 3.0,
+        "detectability": 3.0,
+        "velocity": 3.0,
+        "mitigation_readiness": 2.0,
+        "evidence_ids": [
+          "EV-004"
+        ],
+        "claim_ids": [
+          "CLM-004"
+        ],
+        "confidence_score": 59.0,
+        "risk_score": 66.0,
+        "classification": "High",
+        "override": false,
+        "override_reason": null,
+        "mitigation": "Complete security questionnaire before recruiting paid pilot",
+        "trigger": "Security review remains open at day 30",
+        "owner": "Commercial lead",
+        "residual_risk": "Not recalculated until mitigation is verified",
+        "status": "OPEN",
+        "as_of_date": "2026-10-06",
+        "structural_zero": false,
+        "review_required": "OWNER REVIEW",
+        "confidence_category": "Low"
+      },
+      {
+        "sample_status": "FICTIONAL SAMPLE",
+        "risk_id": "RSK-003",
+        "title": "Pain does not translate into willingness to pay",
+        "category": "commercial",
+        "label": "HYPOTHESIS",
+        "horizon_days": 90.0,
+        "likelihood": 3.0,
+        "impact": 4.0,
+        "detectability": 4.0,
+        "velocity": 3.0,
+        "mitigation_readiness": 1.0,
+        "evidence_ids": [
+          "EV-001",
+          "EV-006"
+        ],
+        "claim_ids": [
+          "CLM-001"
+        ],
+        "confidence_score": 59.0,
+        "risk_score": 72.0,
+        "classification": "High",
+        "override": false,
+        "override_reason": null,
+        "mitigation": "Require paid commitments before expansion",
+        "trigger": "Fewer than three commitments at day 60",
+        "owner": "Commercial lead",
+        "residual_risk": "Not recalculated until mitigation is verified",
+        "status": "OPEN",
+        "as_of_date": "2026-10-06",
+        "structural_zero": false,
+        "review_required": "OWNER REVIEW",
+        "confidence_category": "Low"
+      }
+    ]
+  }
+}

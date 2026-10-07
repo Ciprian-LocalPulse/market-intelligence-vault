@@ -1,0 +1,2 @@
+sample_status,pain_id,segment_id,pain,frequency,severity_0_5,cost_basis,label,evidence_ids,confidence_score,as_of_date
+FICTIONAL SAMPLE,CUS-PAI-001,SEG-001,Recurring mismatches,Weekly synthetic workflow,4,Unmeasured; collect baseline,HYPOTHESIS,EV-001,59.00,2026-10-06
