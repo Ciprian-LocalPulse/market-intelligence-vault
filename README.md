@@ -276,6 +276,70 @@ empirical calibration or guaranteed business outcomes. The schema validator supp
 closed subset. Single-factor sensitivity is not a joint stress test or statistical interval.
 Registered counts do not establish completeness. Read [DISCLAIMER.md](DISCLAIMER.md).
 
+## Public edition and Pro access
+
+**Current version: 1.1.0.** The [public release](https://github.com/Ciprian-LocalPulse/market-intelligence-vault/releases/tag/v1.1.0)
+and the current private Pro baseline share the same implemented analytical framework, scoring tools,
+schemas, synthetic demonstrations and local dashboard. Pro currently provides a separate private
+development edition with internal development and publication-policy documentation. There is no
+separate Pro-tagged release or additional premium runtime module in this baseline.
+
+### What is public, private and planned
+
+| Capability or material | Public/community edition | Private Pro edition |
+|---|---|---|
+| Evidence and decision registers, current scoring, validation and local dashboard | Available in 1.1.0 | Same implemented 1.1.0 baseline |
+| Synthetic examples, schemas, methodology, security documentation and tests | Available for evaluation under the existing license | Included in the complete source baseline |
+| Source distribution | Selected stable public releases | Complete private development source, available only to authorized users |
+| Internal development and publication policy | Edition overview on this page | Detailed open-core policy and accompanying governance documentation |
+| Advanced algorithms and proprietary scoring improvements | Outside the future public publication scope | Planned private development; not implemented as additional Pro features in 1.1.0 |
+| Automated monitoring, ingestion, commercial connectors, enterprise/client workflows, premium exports and automation | Outside the future public publication scope | Planned private development; not implemented in 1.1.0 |
+| Private research tools, advanced lifecycle management and unreleased experiments | Kept outside public distribution | Reserved for authorized private development; availability depends on implementation and review |
+
+The public repository does not expose the private development workspace or its internal policy
+documents. The planned commercial capabilities above are **not currently delivered by either
+edition**. Nothing already legitimately published is withdrawn by this separation. See the
+[roadmap](ROADMAP.md) for proposals and the [license](LICENSE.md) for current rights.
+
+### Access for Pro clients
+
+Clients granted Pro access under an explicit agreement can receive:
+
+- Authorized access to the [private Pro repository](https://github.com/Ciprian-LocalPulse/market-intelligence-vault-pro)
+  and the source and documentation included in their agreed scope. The repository requires a
+  GitHub invitation and is not publicly readable.
+- Access to the latest approved Pro version made available within that agreement. The current
+  baseline is 1.1.0; private development commits and experiments are not automatically stable releases.
+- A channel to discuss client-specific workflows, integration needs and future commercial modules
+  with the maintainer. Delivery, updates, support and any service levels require separate agreed terms.
+
+Premium capabilities become available only after implementation, validation and inclusion in the
+client's agreement. Pro access does not itself promise all future modules, unrestricted reuse,
+priority support, a release schedule or business outcomes. Contributions and donations do not
+automatically grant Pro access or additional license rights.
+
+For Pro access and commercial collaboration enquiries: **contact@agentflow-enterprise.com**.
+
+```mermaid
+flowchart TD
+    BASE["Current shared baseline: version 1.1.0"]
+    PUBLIC["Public edition: selected stable releases and synthetic demo"]
+    PRO["Private Pro: complete development source and internal policy"]
+    REQUEST["Client requests Pro access"]
+    ACCESS["Agreement and authorized GitHub access"]
+    APPROVED["Latest approved Pro version within agreed scope"]
+    FUTURE["Planned premium development: not implemented in 1.1.0"]
+    REVIEW["Implementation, validation and commercial scope review"]
+    BASE --> PUBLIC
+    BASE --> PRO
+    REQUEST --> ACCESS
+    ACCESS --> APPROVED
+    PRO --> APPROVED
+    PRO --> FUTURE
+    FUTURE --> REVIEW
+    REVIEW --> APPROVED
+```
+
 ## Roadmap
 
 [ROADMAP.md](ROADMAP.md) labels 1.1.x refinement, 1.2.0 Research Lifecycle and 2.0.0 Operated
