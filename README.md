@@ -1,7 +1,11 @@
 # Market Intelligence Vault
 
 **Evidence-Based Market, Competitor, Customer, Risk & Opportunity Intelligence**
-
+<p align="center">
+  <img src="assets/market-intelligence-vault-hero.png"
+       alt="Market Intelligence Vault"
+       width="100%">
+</p>
 A local research and decision-support product that connects source observations to claims, explicit
 uncertainty, heuristic indices and reviewable recommendations. Built for analysts who need a traceable
 research workspace and executives who need to see the decision, its weakest support and its downside.
@@ -11,9 +15,11 @@ research workspace and executives who need to see the decision, its weakest supp
 ## Status and release
 
 **Product 1.1.0 — Interactive Intelligence Release; scoring model 1.0.1.** Implementation verification:
-97 automated tests passed in the local release baseline. See [release verification](RELEASE_VERIFICATION_1.1.0.md)
-and [public preparation verification](docs/releases/PUBLICATION_VERIFICATION.md) for executed results and scope.
-GitHub publication is currently deferred; no remote CI pass, published tag or GitHub Release is claimed.
+115 automated tests passed locally for the public release. See [implementation verification](RELEASE_VERIFICATION_1.1.0.md)
+and [publication verification](docs/releases/PUBLICATION_VERIFICATION.md) for executed results and scope.
+Development uses `main`. [GitHub Actions](https://github.com/Ciprian-LocalPulse/market-intelligence-vault/actions/workflows/ci.yml)
+records remote verification; release assets and notes are published under
+[v1.1.0](https://github.com/Ciprian-LocalPulse/market-intelligence-vault/releases/tag/v1.1.0).
 This project is publicly inspectable with rights reserved, not open-source licensed.
 
 ## Important trust boundary
@@ -196,8 +202,8 @@ The following is an actual locally rendered fictional demonstration, not a real 
 
 ![Executive overview with fictional-data label](assets/screenshots/executive-overview.jpg)
 
-Additional verified views are indexed in [assets](assets/README.md). **HERO IMAGE FILE REQUIRED**:
-no verified project hero image was available; its reference is deliberately omitted.
+Capture provenance and image availability are documented in [assets](assets/README.md).
+The project hero image is included above; the dashboard capture shows the actual local interface.
 
 ## Repository structure
 
@@ -258,7 +264,8 @@ node --test dashboard/tests/test_ui.mjs
 python tools/check_public_repository.py
 ```
 
-The implementation baseline has 68 repository, 18 dashboard-export and 11 UI tests. Public checks
+The public release has 86 repository tests (including 18 publication regressions), 18 dashboard-export
+tests and 11 UI tests. Public checks
 verify file/link/image references, version/citation metadata, diagrams and conservative secret patterns.
 Local results and remote CI are distinct; a workflow configuration is not a successful GitHub run.
 
