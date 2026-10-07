@@ -298,6 +298,14 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md), [governance](GOVERNANCE.md) and [code o
 Use issue forms for defects, proposals and methodology challenges. Never submit private research
 or silently change scoring rules. Contribution permissions require agreement with the maintainer.
 
+## Support the Project
+
+Market Intelligence Vault is independently developed and maintained.
+
+If you find the project useful and would like to support continued research, development, documentation and security work:
+
+[Support Market Intelligence Vault](DONATE.md)
+
 ## Author
 
 **Ciprian Ștefan Pleșca**

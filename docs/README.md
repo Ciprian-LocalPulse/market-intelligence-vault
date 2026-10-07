@@ -12,6 +12,7 @@
 | Security | [Disclosure](../SECURITY.md), [privacy controls](../SECURITY_AND_PRIVACY.md) |
 | Fictional example | [Northstar route](examples/README.md) |
 | Releases | [Release index](releases/README.md), [process](../RELEASE_PROCESS.md), [changelog](../CHANGELOG.md) |
+| Project support | [Support guide](SUPPORT_THE_PROJECT.md), [donation options](../DONATE.md) |
 | Rights and citation | [License](../LICENSE.md), [author](../AUTHORS.md), [citation](../CITATION.cff) |
 
 Production numbered directories remain canonical. These pages navigate and explain them; they do
