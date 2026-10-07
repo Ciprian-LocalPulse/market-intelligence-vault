@@ -24,17 +24,15 @@ Beneficiary: Ciprian Stefan Plesca
 
 Currency: RON
 
-IBAN: [RON IBAN TO BE PROVIDED]
+IBAN:  RO94 BREL 0005 6026 8420 0100
 
-SWIFT / BIC: [RON SWIFT/BIC TO BE PROVIDED IF APPLICABLE]
+SWIFT / BIC: TRWIBEB1XXX
 
-RON transfer details are pending. Do not send a RON transfer using incomplete details.
 
 ### PayPal
 
-PayPal: [PAYPAL ADDRESS OR LINK TO BE PROVIDED]
+PayPal: https://www.paypal.com/paypalme/agentflowenterprise
 
-The PayPal destination is pending. The project contact address is not a confirmed PayPal destination.
 
 ### Contact
 
