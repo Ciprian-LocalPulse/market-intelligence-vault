@@ -1,6 +1,6 @@
 # Market Intelligence Vault v1.1.0 — Interactive Intelligence Release
 
-Prepared release notes. GitHub publication/tag creation is deferred; this page is not a release announcement.
+First public GitHub release, published from `main` as `v1.1.0` after release verification.
 
 ## Overview and major capabilities
 
@@ -34,18 +34,19 @@ are preserved historically; this release does not purport to revoke earlier-copy
 
 ## Testing
 
-The implementation baseline passed 68 repository tests, 18 dashboard export tests and 11 JavaScript
-tests (97 total). Public preparation reruns these suites and records its actual results in
-PUBLICATION_VERIFICATION.md. Score/schema validation and export reconciliation are required. CI has
-not run remotely because publication is deferred. Browser and PDF inspection are local checks, not
-external accessibility or security certification.
+The public release passed 86 repository tests, 18 dashboard export tests and 11 JavaScript tests
+(115 total) locally. PUBLICATION_VERIFICATION.md records scope and limitations. Score/schema
+validation passed with zero errors; an exported Git checkout passed archive and snapshot hash
+verification. Remote execution is recorded in GitHub Actions. Browser and PDF inspection are
+local implementation checks, not external accessibility or security certification.
 
 ## Known limitations
 
 No automated ingestion, authenticated service, publisher/signer authentication, real-time monitoring
 or empirical calibration. Single-factor sensitivity is not a joint statistical stress test. Hashes
 prove integrity only. The supplied study is FICTIONAL DEMONSTRATION DATA and ACTION NOT APPROVED.
-No verified hero image is included. Source and business validity require professional human review.
+The owner-supplied hero is a presentation asset, not research evidence or a dashboard capture.
+Source and business validity require professional human review.
 
 ## Upgrade notes
 
