@@ -1,7 +1,11 @@
 # Market Intelligence Vault
 
 **Evidence-Based Market, Competitor, Customer, Risk & Opportunity Intelligence**
-
+<p align="center">
+  <img src="assets/market-intelligence-vault-hero.png"
+       alt="Market Intelligence Vault"
+       width="100%">
+</p>
 A local research and decision-support product that connects source observations to claims, explicit
 uncertainty, heuristic indices and reviewable recommendations. Built for analysts who need a traceable
 research workspace and executives who need to see the decision, its weakest support and its downside.
